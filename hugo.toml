@@ -1,44 +1,10 @@
-baseURL = ""
+baseURL = "https://blog.manas-mishra.com"
 languageCode = 'en-us'
-title = 'Demo for Hugo'
-theme = 'PaperMod'
+title = 'Manas Mishra'
 
-[params]
-ShowBreadCrumbs = true
-ShowReadingTime = true
+# Change the default theme to be use when building the site with Hugo
+theme = "hugo-theme-relearn"
 
-[params.cover]
-linkFullImages = true
-
-[params.homeInfoParams]
-Title = "Hello Stranger"
-Content =  "Welcome to my blog. Here you'll find a lot of cool information about a lot of cool stuff." 
-
-[[params.socialIcons]]
-name = "facebook"
-url = "https://facebook.com"
-[[params.socialIcons]]
-name = "twitter"
-url = "https://twitter.com"
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com"
-
-
-
-[menu]
-    [[menu.main]]
-    identifier = 'categories'
-    name = 'Categories'
-    url = '/categories/'
-    weight = 10
-    [[menu.main]]
-    identifier = 'tags'
-    name = 'Tags'
-    url = '/tags/'
-    weight = 20
-    [[menu.main]]
-    identifier = 'archives'
-    name = 'Archives'
-    url = '/archives/'
-    weight = 30
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "SEARCH"]

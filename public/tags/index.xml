@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Demo for Hugo</title>
-    <link>https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app/tags/</link>
-    <description>Recent content in Tags on Demo for Hugo</description>
+    <title>Tags on Manas Mishra</title>
+    <link>https://blog.manas-mishra.com/tags/index.html</link>
+    <description>Recent content in Tags on Manas Mishra</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Nov 2023 12:10:22 +0530</lastBuildDate><atom:link href="https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>go-chatgpt</title>
-      <link>https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app/tags/go-chatgpt/</link>
-      <pubDate>Tue, 14 Nov 2023 12:10:22 +0530</pubDate>
-      
-      <guid>https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app/tags/go-chatgpt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go-chromedp</title>
-      <link>https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app/tags/go-chromedp/</link>
-      <pubDate>Tue, 14 Nov 2023 12:10:22 +0530</pubDate>
-      
-      <guid>https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app/tags/go-chromedp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go-openai</title>
-      <link>https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app/tags/go-openai/</link>
-      <pubDate>Tue, 14 Nov 2023 12:10:22 +0530</pubDate>
-      
-      <guid>https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app/tags/go-openai/</guid>
-      <description></description>
-    </item>
-    
+    <atom:link href="https://blog.manas-mishra.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
