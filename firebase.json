@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "my-first-hugo-22",
     "public": "public",
     "ignore": [
       "firebase.json",
