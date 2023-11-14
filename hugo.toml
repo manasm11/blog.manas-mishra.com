@@ -1,4 +1,4 @@
-baseURL = "localhost"
+baseURL = "https://65536d234e74a45ebf24a36a--comforting-centaur-4ba9ef.netlify.app"
 languageCode = 'en-us'
 title = 'Demo for Hugo'
 theme = 'PaperMod'
