@@ -1,0 +1,38 @@
+        </div>
+      </main><!-- #R-body-inner -->
+{{- partial "custom-comments.html" . }}
+    </div><!-- #R-body -->
+{{- $outputFormat := partial "output-format.hugo" .Page }}
+{{- partial "output-partial.hugo" (dict "base" "menu" "page" . "parameter" . "outputFormat" $outputFormat) }}
+    <script src="{{"js/clipboard.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+    <script src="{{"js/perfect-scrollbar.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+{{- partial "dependencies.html" (dict "page" . "location" "footer" "outputFormat" $outputFormat) }}
+    <script src="{{"js/theme.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}" defer></script>
+{{- partial "custom-footer.html" . }}
+  </body>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCb2i9uL8XdOUFeOR7AAx6e5iplaGjEgVU",
+    authDomain: "testweb-1122.firebaseapp.com",
+    databaseURL: "https://testweb-1122.firebaseio.com",
+    projectId: "testweb-1122",
+    storageBucket: "testweb-1122.appspot.com",
+    messagingSenderId: "780035919509",
+    appId: "1:780035919509:web:db7c5d8e20077cfd52959c",
+    measurementId: "G-4HECGZ1118"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+  logEvent(analytics, 'notification_received');
+</script>
+</html>
