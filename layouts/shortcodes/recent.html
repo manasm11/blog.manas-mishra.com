@@ -1,0 +1,24 @@
+<style>
+    .card {
+        text-decoration: none;
+        color: black;
+        box-shadow: 8px black;
+        list-style: none;
+        margin-bottom: 16px;
+    }
+
+    .title {
+        display: block;
+        font-size: large;
+        font-weight: 400;
+    }
+</style>
+<ul>
+    {{ range .Site.RegularPages.ByDate.Reverse.Limit (.Get "n") }}
+    <a href="{{ .RelPermalink }}">
+        <li class="card">
+            <div class="title">{{ .Title }}:</div>
+        </li>
+    </a>
+    {{end}}
+</ul>
