@@ -8,3 +8,15 @@ ytcode = "NJyA5Paefx4"
 +++
 
 {{< youtube "NJyA5Paefx4" >}}
+
+
+
+{{< ytvideo >}}
+
+content goes here.
+
+```go
+The code goes here.
+```
+
+{{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}

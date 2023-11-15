@@ -7,4 +7,15 @@ date = "2023-11-15T05:58:51+05:30"
 ytcode = "1xOdJszUB9I"
 +++
 
-{{< youtube "1xOdJszUB9I" >}}
+
+{{< exercisequestion >}}
+
+{{< ytvideo >}}
+
+content goes here.
+
+```go
+The code goes here.
+```
+
+{{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}
