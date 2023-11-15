@@ -11,10 +11,23 @@ ytcode = "kX_7OZYz73w"
 
 {{< ytvideo >}}
 
-content goes here.
+This exercise just requires you to know about the for-each loop, which by itself gives you the index and the value which you can easily print.
+
+Here is the small code snippet of the solution:
 
 ```go
-The code goes here.
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+	for i, v := range os.Args {
+		fmt.Println(i, v)
+	}
+}
 ```
 
 {{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}
