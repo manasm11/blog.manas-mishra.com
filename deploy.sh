@@ -7,5 +7,6 @@ select yn in "Yes" "No"; do
     Yes ) git add . && git commit && git push && rm -rf public/ resources/ && hugo && firebase deploy;;
     No ) exit;;
   esac
+  exit
 done
 
