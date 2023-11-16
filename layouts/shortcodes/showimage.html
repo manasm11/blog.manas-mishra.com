@@ -8,6 +8,6 @@
 
 {{ $image := resources.Get $imagePath }}
 <figure>
-    <img src="{{ ( $image.Resize $resizeOptions ).RelPermalink }}" alt="{{ $captionAltText }}">
+    <img src="{{ ( $image.Resize $resizeOptions ).RelPermalink }}" alt="{{ $captionAltText }}" loading="lazy">
     <figcaption>{{ $captionAltText }}</figcaption>
 </figure>
