@@ -7,10 +7,7 @@ date = "2023-11-15T05:58:51+05:30"
 ytcode = "NJyA5Paefx4"
 +++
 
-{{< youtube "NJyA5Paefx4" >}}
-
-
-
+{{< exercisequestion >}}
 {{< ytvideo >}}
 
 content goes here.
