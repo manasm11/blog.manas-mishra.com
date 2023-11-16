@@ -200,9 +200,9 @@ func BenchmarkEcho3(b *testing.B) {
 We can run the individual benchmarks with the `go test -bench=BenchmarkEcho1`, `go test -bench=BenchmarkEcho2` and `go test -bench=BenchmarkEcho3` commands. Here are the results:
 
 
-{{< showimage "005" "results of BenchmarkEcho1" "1024x webp text" >}}
-{{< showimage "006" "results of BenchmarkEcho2" "1024x webp text" >}}
-{{< showimage "007" "results of BenchmarkEcho3" "1024x webp text" >}}
+{{< showimage "005" "results of BenchmarkEcho1" "800x webp text" >}}
+{{< showimage "006" "results of BenchmarkEcho2" "800x webp text" >}}
+{{< showimage "007" "results of BenchmarkEcho3" "800x webp text" >}}
 
 These results conclude the same thing that echo3 function is most optimal, and echo1 and echo2 functions are almost equal in performance.
 
