@@ -6,5 +6,6 @@
   border-radius: 50%;
 }
 </style>
+{{ $logoImage := resources.Get "img/logo.jpg" }}
 
-<img src="/img/logo.jpg" alt="Avatar" class="avatar">
+<img src="{{ ( $logoImage.Resize "256x webp picture").RelPermalink }}" alt="Avatar" class="avatar">

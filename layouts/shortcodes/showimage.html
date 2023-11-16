@@ -1,0 +1,13 @@
+{{ $imagePath := printf "img/image-%s.png" (.Get 0) | printf "%s"}}
+{{ $captionAltText := .Get 1 }}
+{{ $resizeOptions := "600x webp text" }}
+
+{{ if .Get 2 }}
+    {{ $resizeOptions = .Get 2 }}
+{{ end }}
+
+{{ $image := resources.Get $imagePath }}
+<figure>
+    <img src="{{ ( $image.Resize $resizeOptions ).RelPermalink }}" alt="{{ $captionAltText }}">
+    <figcaption>{{ $captionAltText }}</figcaption>
+</figure>
