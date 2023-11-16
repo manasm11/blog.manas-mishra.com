@@ -11,7 +11,7 @@ ytcode = "dHI2k4NYFdY"
 
 {{< ytvideo >}}
 
-We'll start the exercise by creating the `main.go` file with the imports and calling the `echo1()`, `echo2()` and `echo3()` functions.
+We'll start the exercise by creating the *main.go* file with the imports and calling the *echo1()*, *echo2()* and *echo3()* functions.
 
 {{< highlight go "title=main.go,linenos=table" >}}
 package main
@@ -87,7 +87,7 @@ func main() {
 Here is the output I got from running it.
 {{< showimage "001" "Time taken for each echo call is 0 seconds." >}}
 
-To get better comparison for performance of each echo function, we need to run it multiple times. One way is to execute each echo function in a for loop for `n` number of times which in our case is `1000`. We'll make following changes to the code:
+To get better comparison for performance of each echo function, we need to run it multiple times. One way is to execute each echo function in a for loop for *n* number of times which in our case is *1000*. We'll make following changes to the code:
 
 {{< highlight go "title=main.go,linenos=table,hl_lines=9 13 15 17 19 21 23" >}}
 package main
@@ -152,7 +152,7 @@ Here's the output after running `go run ./main.go`.
 
 {{< showimage "001" "Console output after making echo functions more testable. Time take show 0 seconds." >}}
 
-We'll need to increase `n`. Let's change it:
+We'll need to increase *n*. Let's change it:
 {{< highlight go "title=main.go,linenos=table,hl_lines=9" >}}
 package main
 
@@ -169,9 +169,9 @@ Here's the output of running `go run ./main.go`
 
 This concludes that echo3 function has the best performance, and echo1 and echo2 functions have almost equal performance.
 
-This conclusion is correct but this is not the optimal way of comparing performances of the functions due to two reasons: one is that we need to do hit and trial to get to an `n` which gives us perceivable results, and the second reason is that every time we need to test out code, we need to change out `main.go` file. Which is not recommended if you are testing someone else's code. For this reason, golang provides us with standard testing and benchmarking functionalities in `testing` module.
+This conclusion is correct but this is not the optimal way of comparing performances of the functions due to two reasons: one is that we need to do hit and trial to get to an *n* which gives us perceivable results, and the second reason is that every time we need to test out code, we need to change out *main.go* file. Which is not recommended if you are testing someone else's code. For this reason, golang provides us with standard testing and benchmarking functionalities in *testing* module.
 
-Go tests can only be used in go modules. So first we need to run the `go mod init ex1.2` to initialize module. Then we need to create `main_test.go` file. Here we'll add the benchmarks for all three echo functions:
+Go tests can only be used in go modules. So first we need to run the `go mod init ex1.2` to initialize module. Then we need to create *main_test.go* file. Here we'll add the benchmarks for all three echo functions:
 
 ```go { title="main_test.go" }
 package main
