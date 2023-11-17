@@ -32,5 +32,15 @@
 			""
 		],
 		"description": "Show Image Shortcode"
+	},
+	"Create Notice": {
+		"prefix": "note",
+		"body": [
+			"{{% notice ${1|note,info,tip,warning|} %}}",
+			"$2",
+			"{{% /notice %}}",
+			""
+		],
+		"description": "Create Notice"
 	}
 }
