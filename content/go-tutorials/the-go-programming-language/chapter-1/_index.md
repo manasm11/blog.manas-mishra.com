@@ -1,4 +1,5 @@
 +++
-title="Chapter 1"
+title = "Chapter 1"
+weight = 1
 +++
 {{< listsubpages >}}
