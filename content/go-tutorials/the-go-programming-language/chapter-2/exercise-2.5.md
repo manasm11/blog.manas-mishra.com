@@ -62,9 +62,46 @@ func PopCount2(x uint64) int {
 }
 {{< /highlight >}}
 
-{{% notice note %}}
-The post is incomplete, it will be completed shortly.
-{{% /notice %}}
+Before running benchmarks, let's check if both functions give out same outputs. We'll do so by creating a test in *popcount/popcount_test.go* file.
 
+{{< highlight go "title=popcount/popcount_test.go,linenos=table,linenostart=,hl_lines=" >}}
+package popcount_test
+
+import (
+	"testing"
+
+	"ex2.5/popcount"
+)
+
+func TestBothPopCountGiveSameResults(t *testing.T) {
+	for i := uint64(0); i < 200; i++ {
+		if popcount.PopCount(i) != popcount.PopCount2(i) {
+			t.Fatalf("popcount values are not equal for i=%d", i)
+		}
+	}
+}
+{{< /highlight >}}
+
+Upon running the test with `go test ./popcount` gives the "ok" output, which means both functions produce same output. Now let's create benchmarks for both the functions.
+
+{{< highlight go "title=popcount/popcount_test.go,linenos=table,linenostart=16,hl_lines=" >}}
+func BenchmarkPopCount(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		popcount.PopCount(uint64(i))
+	}
+}
+
+func BenchmarkPopCount2(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		popcount.PopCount2(uint64(i))
+	}
+}
+{{< /highlight >}}
+
+Running the benchmark with `go test -bench ./popcount` gives this result:
+
+{{< showimage "019" "Output of benchmark" "800x webp text" >}}
+
+Clearly, the *PopCount* is much more efficient than *PopCount2*.
 
 {{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}
