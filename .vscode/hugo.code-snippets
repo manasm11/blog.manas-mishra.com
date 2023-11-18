@@ -18,7 +18,7 @@
 	"Highlight Go Code": {
 		"prefix": "high",
 		"body": [
-			"{{< highlight go \"title=$1,linenos=table,linenostart=,hl_lines=\" >}}",
+			"{{< highlight go \"title=$1,linenos=table,linenostart=1,hl_lines=\" >}}",
 			"$CLIPBOARD",
 			"{{< /highlight >}}",
 			""
@@ -42,5 +42,14 @@
 			""
 		],
 		"description": "Create Notice"
+	},
+	"Create a shortcode": {
+		"prefix": "shortcode",
+		"body": [
+			"{{< $1 $2>}}",
+			"$3",
+			"{{< /$1 >}}"
+		],
+		"description": "Create a shortcode"
 	}
 }
