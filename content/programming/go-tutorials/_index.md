@@ -1,7 +1,6 @@
 +++
 title = "GoLang Tutorials"
 linkTitle = "Go Tutorials"
-hidden = true
 +++
 
 I tried multiple programming languages like C, C++, Java, Javascript, Python. I was a python developer for a quite long time when I hit its performance issue. Then I came across GoLang and have been developing in the same since then.

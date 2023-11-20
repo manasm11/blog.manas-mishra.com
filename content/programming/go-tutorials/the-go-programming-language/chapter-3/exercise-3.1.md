@@ -1,14 +1,14 @@
 +++
-title = 'Exercise 3.3'
-weight = 230
-question = "Color each polygon based on its height, so that the peaks are colored red (#ff0000) and the valleys blue (#0000ff)."
-date = "2023-11-19T10:15:00+05:30"
-ytcode = "IYlauRWCbLI"
+title = 'Exercise 3.1'
+weight = 220
+question = "If the function f returns a non-finite float64 value, the SVG file will contain invalid <polygon> elements (although many SVG renderers handle this gracefully). Modify the program to skip invalid polygons."
+date = "2023-11-18T12:09:01+05:30"
+ytcode = "OW5pZsS3w8w"
 +++
 {{< exercisequestion >}}
 {{< ytvideo >}}
 
-We'll start the exercise with duplicating the code from the book.
+Let's start by duplicating the code example from book.
 
 {{< highlight go "title=main.go,linenos=table,linenostart=1,hl_lines=" >}}
 // Surface computes an SVG rendering of a 3-D surface function.
@@ -67,22 +67,40 @@ func f(x, y float64) float64 {
 }
 {{< /highlight >}}
 
-You can run the modified file with `go run main.go > temp.svg`. You can download the generated SVG from {{< downloadablelink "/img/temp.svg" "this link 'temp.svg'" >}}. 
+We must try to run the file with `go run main.go > temp.svg`. You can download the svg from {{< downloadablelink "/img/temp.svg" "this link 'temp.svg'" >}}. If you look at {{< downloadablelink "/img/temp.svg" "this temp.svg file" >}}, there are **1001** lines. We'll change the code to prevent polygons with non-finite *f* function values and see how many lines the new svg has.
 
 {{< showimage "020" "Screenshot of temp.svg" "400x webp text" >}}
 
-Since we need to color svg according to height, we would need to return height also from the *corner* function. Then we'll calculate the average height of all the corners and use it to create color conditionally. One observation is that all the values of *z* were from *-1 to +1*. Here is the final code:
+To check a *float64* is a finite number or not, we'll use two functions from *math* package: `math.IsInf` and `math.IsNan`.
 
-{{% notice info %}}
-To add color in \<polygon\> tag, we need to add **fill** attribute.
-{{% /notice %}}
+{{< define "math.IsInf" >}}
+package math // import "math"
 
-{{% notice info %}}
-To generate two digit hex code from integer in *Sprinf*, we have to use **%02X** verb.
-{{% /notice %}}
+func IsInf(f float64, sign int) bool
+    IsInf reports whether f is an infinity, according to sign. If sign > 0,
+    IsInf reports whether f is positive infinity. If sign < 0, IsInf reports
+    whether f is negative infinity. If sign == 0, IsInf reports whether f is
+    either infinity.
+{{< /define >}}
 
+{{< define "math.IsNan">}}
+package math // import "math"
 
-{{< highlight go "title=main.go,linenos=table,linenostart=1,hl_lines=26-39 44 55" >}}
+func IsNaN(f float64) (is bool)
+    IsNaN reports whether f is an IEEE 754 “not-a-number” value.
+{{< /define >}}
+
+Using these functions, we'll create a function `isFinite` which takes a float64 and return if the float64 is finite or not.
+
+{{< highlight go "title=main.go,linenos=table,linenostart=56,hl_lines=" >}}
+func isFinite(num float64) bool {
+	return !math.IsInf(num, 0) && !math.IsNaN(num)
+}
+{{< /highlight >}}
+
+Now, we'll use the *isFinite* function in *corner* function. We'll make few changes in the *main.go*.
+
+{{< highlight go "title=main.go,linenos=table,hl_lines=26-41 49 60" >}}
 // Surface computes an SVG rendering of a 3-D surface function.
 package main
 
@@ -108,25 +126,30 @@ func main() {
 		"width='%d' height='%d'>", width, height)
 	for i := 0; i < cells; i++ {
 		for j := 0; j < cells; j++ {
-			ax, ay, az := corner(i+1, j)
-			bx, by, bz := corner(i, j)
-			cx, cy, cz := corner(i, j+1)
-			dx, dy, dz := corner(i+1, j+1)
-			avgZ := (az + bz + cz + dz) / 4
-			var hexCode string
-			if avgZ > 0 {
-				hexCode = fmt.Sprintf("#%02X%02X%02X", int64(avgZ*16*16), 0, 0)
-			} else {
-				hexCode = fmt.Sprintf("#%02X%02X%02X", 0, 0, -int64(avgZ*16*16))
+			ax, ay, ok := corner(i+1, j)
+			if !ok {
+				continue
 			}
-			fmt.Printf("<polygon fill='%s' points='%g,%g %g,%g %g,%g %g,%g'/>\n", hexCode,
+			bx, by, ok := corner(i, j)
+			if !ok {
+				continue
+			}
+			cx, cy, ok := corner(i, j+1)
+			if !ok {
+				continue
+			}
+			dx, dy, ok := corner(i+1, j+1)
+			if !ok {
+				continue
+			}
+			fmt.Printf("<polygon points='%g,%g %g,%g %g,%g %g,%g'/>\n",
 				ax, ay, bx, by, cx, cy, dx, dy)
 		}
 	}
 	fmt.Println("</svg>")
 }
 
-func corner(i, j int) (float64, float64, float64) {
+func corner(i, j int) (float64, float64, bool) {
 	// Find point (x,y) at corner of cell (i,j).
 	x := xyrange * (float64(i)/cells - 0.5)
 	y := xyrange * (float64(j)/cells - 0.5)
@@ -137,18 +160,21 @@ func corner(i, j int) (float64, float64, float64) {
 	// Project (x,y,z) isometrically onto 2-D SVG canvas (sx,sy).
 	sx := width/2 + (x-y)*cos30*xyscale
 	sy := height/2 + (x+y)*sin30*xyscale - z*zscale
-	return sx, sy, z
+	return sx, sy, isFinite(z)
 }
 
 func f(x, y float64) float64 {
 	r := math.Hypot(x, y) // distance from (0,0)
 	return math.Sin(r) / r
 }
+
+func isFinite(num float64) bool {
+	return !math.IsInf(num, 0) && !math.IsNaN(num)
+}
 {{< /highlight >}}
 
-You can run generate the svg file using `go run main.go > colorful.svg`. You may download the file through {{< downloadablelink "/img/colorful.svg" "this link" >}}.
+After running the `go run main.go > temp2.svg`, we get the svg that looks similar. But if you look at the {{< downloadablelink "/img/temp2.svg" "actual svg file (temp2.svg)" >}}, there are **997** lines.
 
-
-{{< showimage "022" "Colored polygons in SVG rendering" "800x webp text" >}}
+{{< showimage "021" "Difference between temp.svg and temp2.svg lines" "800x webp text" >}}
 
 {{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}
