@@ -149,8 +149,11 @@ If new product enters the market, it will start replacing the existing products.
 Rivalry of market depends of two factors, the number of products and the distribution of market shares. If there are more number of products, it means the market is more competitive. If the market share is evenly distributes amongst all products, means the market is more competitive.
 
 ##### Herfindahl-Hirschman Index (HII)
-HHI is used to measure the extent of rivalry in a market. The formula of HHI:
+HHI is used to measure the extent of rivalry in a market.
 
+In simple words, HHI is the sum of square of market share of all the products in the market.
+
+{{< collapse "Click to view/hide the formula...">}} The formula of HHI:
 $$
  HHI = \sum_{i}(MS_{i})^{2}
 $$
@@ -160,7 +163,8 @@ $ 0 \leq HHI \leq  1 \\ $ if Market Share is in fraction.
 
 $ 0 \leq HHI \leq  10000 \\ $ if Market Share is in percentage.
 
-In simple english, HHI is the sum of square of market share of all the products in the market.
+{{< /collapse >}}
+
 
 {{% notice info %}}
 As a general rule of thumb in industry, **HHI > 0.3** is called a less competitive market and hence more profitable, whereas a market with **HHI < 0.3** is said to be more competitive and less profitable.
