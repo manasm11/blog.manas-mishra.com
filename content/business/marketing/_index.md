@@ -108,6 +108,8 @@ mindmap
             HHI(Herfindahl-Hirschman Index)
         CONTEXT(Context)
         CUSTOMER(Customer/Consumer)
+            AIDA(AIDA Framework)
+            CDM(Customer Decision Model)
         COMPANY(Company)
         COLLABORATOR(Collaborator)
 ```
@@ -169,6 +171,53 @@ $ 0 \leq HHI \leq  10000 \\ $ if Market Share is in percentage.
 {{% notice info %}}
 As a general rule of thumb in industry, **HHI > 0.3** is called a less competitive market and hence more profitable, whereas a market with **HHI < 0.3** is said to be more competitive and less profitable.
 {{% /notice %}}
+
+### Customer/Consumer
+After understanding how to analyze Competition and Profitability, we'll learn how to understand customer/consumer.
+
+{{% notice info %}}
+**Customers** are the people who buy the product whereas **Consumers** are the people who finally use the product. Example: for baby diapers, baby's parents is the customer (make purchase decision) and the baby is the consumer (actually uses it). Many times customer and consumers are same.
+{{% /notice %}}
+
+#### AIDA Framework
+AIDA Framework is used to understand how consumers make decisions. It stands for:
+A -> Awareness about the need/problem
+I -> Interest to look for options/alternatives
+D -> Desire to choose/consider
+A -> Action to buy/not buy
+
+##### Awareness
+Here are some definitions related to consumer awareness:
+
+{{< define "Awareness Set">}}
+Products/brands a consumer is aware about. Any product/brand a consumer has ever heard about will be considered in the Awareness set.
+{{< /define >}}
+
+{{< define "Evoked Set">}}
+Top-of-the mind brands/products. The brands/products with quick recall for a customer are called Evoked Set for him/her.
+{{< /define >}}
+
+{{< define "Consideration Set">}}
+Products that a customer considers to buy are called consideration set. The consideration set is often influenced by Friends and Families.
+{{< /define >}}
+
+{{< define "Selection Set">}}
+After analyzing Consideration set, the customer narrows it down to Selection Set, which is a handful of products he can buy depending upon the prices and his/her specific needs.
+{{< /define >}}
+
+{{< define "Choice Set">}}
+Final products that the customer chooses is called Choice Set/Purchase Set.
+{{< /define >}}
+
+In Low Involvement Process, the customer moves from Awareness Set to Selection Set and to Purchase Set. In other words, customer picks up any know product that solves his/her problem without doing much analysis.
+
+#### Consumer Decision Model (CDM)
+Later AIDA model was replaced by *Consumer Decision Model*. CDM takes into account one more step other than AIDA model. Consumer Decision Model considers these five aspects of customer decision:
+1. Need/Problem recognition (Awareness)
+2. Search for alternatives/options (Intent)
+3. Evaluation of alternatives (Desire)
+4. Purchase/Consumption (Action) 
+5. Post purchase evaluation
 
 The blog is incomplete, I'll update it soon...
 
