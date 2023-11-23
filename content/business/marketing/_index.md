@@ -102,6 +102,9 @@ Before starting a business, one must check if the business is:
 4. Capable (Company)
 
 ```mermaid
+---
+title: Stakeholder Analysis / Market Scanning Analysis
+---
 mindmap
     5C((5C))
         COMPETITION(Competition)
@@ -124,6 +127,9 @@ One Model of analyzing competition/profitability is called *Porter's 5 Forces*. 
 5. Extent of Rivalry
 
 ```mermaid
+---
+title: Porter's 5 Forces
+---
 mindmap
     RIVALRY(Extent of Rivalry)
         SUPPLIER(Bargain of Suppliers)
@@ -219,6 +225,39 @@ Later AIDA model was replaced by *Consumer Decision Model*. CDM takes into accou
 3. Evaluation of alternatives (Desire)
 4. Purchase/Consumption (Action) 
 5. Post purchase evaluation
+
+
+```mermaid
+---
+title: Consumer choice process as per CDM
+---
+graph TD
+    NEED(Need) -- On Motivation --> KNOW(Know/Learn) -- On Learning --> UNDERSTAND(Understand) -- As per Attitude, may --> LIKE(Like/Dislike) -- then may --> INTENT(Buy/Not Buy)
+```
+
+{{% notice note %}}
+The whole consumer choice process is governed by two factors: **Culture** and **Personality**.
+{{% /notice %}}
+
+#### Attitude
+Attitudes are formed opinions. Attitude has a direction (negative or positive) and magnitude (intensity). In simple words it is what we like or not like.
+
+Attitude starts with Consumption (a person would like to consume a product or not), then it may carry forward towards Product/Product Category (a person likes the product or not), then it carries forward to brand (the customer likes the brand or not).
+
+```mermaid
+---
+title: Consumer Attitude formation steps
+---
+graph TD
+    CONSUMPTION(Attitude towards Consumption of product/service) -->  PRODUCT(Attitude towards Product/Service) --> BRAND(Attitude towards Brand offering the product/Service)
+```
+
+##### Why we form Attitude?
+There are three reasons we form attitude:
+1. Value Expression
+2. Ego Defensive
+3. Utilitarian
+
 
 The blog is incomplete, I'll update it soon...
 
