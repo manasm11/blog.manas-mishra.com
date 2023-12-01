@@ -7,6 +7,33 @@ date = "2023-11-21T05:58:51+05:30"
 
 {{< mureference >}}
 
+Before starting a business, one must have a **Go To Market Strategy**. This strategy can be created through the following process:
+```mermaid
+graph LR
+    NEEDGAP(Need Gap Analysis) --> MARKETSCAN(Market Scanning Analysis) --> SEGMENTATION(Segmentation and Targeting) --> MARKETMIX(Market Mix 4P/7P)
+
+style NEEDGAP fill:#00ffff
+style MARKETSCAN fill:#7fff00
+style SEGMENTATION fill:yellow
+style MARKETMIX fill:#fec5e5
+```
+
+To form a better picture in mind, I'll create a mindmap:
+```mermaid
+mindmap
+    Go To Market Strategy
+        Need Gap Analysis
+            Customer Purchase Cycle
+        Market Scanning Analysis
+            5Cs
+        Segmentation and Targeting
+        Market Mix
+            4P/7P of Marketing
+```
+
+In this whole page, we'll learn this 4 step process to create a **Go To Market Strategy**.
+
+## **Need Gap Analysis**
 ```mermaid
 ---
 title: Customer Purchase Cycle
@@ -92,7 +119,12 @@ This simple framework can also be used to find out any gaps in markets, if any. 
 4. Possibility of *Value Enhancement*
 5. Customer *Expectations* are not being matched 
 
-## Market Scanning Analysis
+{{% notice tip %}}
+A business can be started if there is any one or more of these gaps. A business can't sustain if it doesn't fills all the gap.
+{{% /notice %}}
+
+
+## **Market Scanning Analysis**
 This is also called Stakeholder Analysis or 5C Analysis. This is basic analysis that any business should do before starting.
 
 Before starting a business, one must check if the business is:
@@ -111,6 +143,12 @@ mindmap
             PORTERS5FORCES(Porter's 5 Forces)
             HHI(Herfindahl-Hirschman Index)
         CONTEXT(Context)
+            Political
+            Economic
+            Sociocultural
+            Technological
+            Legal
+            Environmental
         CUSTOMER(Customer/Consumer)
             AIDA(AIDA Framework)
             CDM(Customer Decision Model)
@@ -162,7 +200,7 @@ HHI is used to measure the extent of rivalry in a market.
 
 In simple words, HHI is the sum of square of market share of all the products in the market.
 
-{{< collapse "Click to view/hide the formula...">}} The formula of HHI:
+{{< collapse "**Click to view/hide the formula...**">}} The formula of HHI:
 $$
  HHI = \sum_{i}(MS_{i})^{2}
 $$
@@ -194,6 +232,19 @@ D -> Desire to choose/consider
 A -> Action to buy/not buy
 
 ##### Awareness
+```mermaid
+graph TD
+    NEED(Need) --> EVOKED
+    AWARENESS(Awareness Set) --> EVOKED(Evoked Set)
+    FRIENDS(Friends/Family) --> CONSIDERATION
+    AVAILABILITY(Lack of Availability) --> CONSIDERATION
+    EVOKED----> CONSIDERATION(Consideration Set)
+    MARKETING(Marketer's Market Mix) --> CONSIDERATION
+    CONDITIONS(External Conditions) --> CONSIDERATION
+    CONSIDERATION--Comparing Values--> SELECTION(Selection Set)
+    SELECTION --> PURCHASE(Choice/Purchase Set)
+```
+
 Here are some definitions related to consumer awareness:
 
 {{< define "Awareness Set">}}
@@ -216,7 +267,7 @@ After analyzing Consideration set, the customer narrows it down to Selection Set
 Final products that the customer chooses is called Choice Set/Purchase Set.
 {{< /define >}}
 
-In Low Involvement Process, the customer moves from Awareness Set to Selection Set and to Purchase Set. In other words, customer picks up any know product that solves his/her problem without doing much analysis.
+In Low Involvement Process, the customer moves from Awareness Set to Selection Set and to Purchase Set. In other words, customer picks up any know product that solves his/her problem without doing much analysis. In High Involvement Situations, the customer passes through all the steps. 
 
 #### Consumer Decision Model (CDM)
 Later AIDA model was replaced by *Consumer Decision Model*. CDM takes into account one more step other than AIDA model. Consumer Decision Model considers these five aspects of customer decision:
@@ -235,7 +286,7 @@ graph TD
     NEED(Need) -- On Motivation --> KNOW(Know/Learn) -- On Learning --> UNDERSTAND(Understand) -- As per Attitude, may --> LIKE(Like/Dislike) -- then may --> INTENT(Buy/Not Buy)
 ```
 
-{{% notice note %}}
+{{% notice info %}}
 The whole consumer choice process is governed by two factors: **Culture** and **Personality**.
 {{% /notice %}}
 
@@ -252,12 +303,121 @@ graph TD
     CONSUMPTION(Attitude towards Consumption of product/service) -->  PRODUCT(Attitude towards Product/Service) --> BRAND(Attitude towards Brand offering the product/Service)
 ```
 
+{{% notice info %}}
+Increasing attitude toward consumption is called **Market Creation Process**. Eg: Ola, Uber created attitude towards convenient taxi.
+{{% /notice %}}
+
 ##### Why we form Attitude?
 There are three reasons we form attitude:
 1. Value Expression
 2. Ego Defensive
 3. Utilitarian
 
+{{% notice warning %}}
+You can never be a good marketer with a bad product.
+{{% /notice %}}
+
+If you know the product is best, make sure the customer goes through all the decision making process.
+
+### Context/Feasibility
+Context looks at the Macro Environmental Factors which affects the business. They include:
+1. Political
+2. Economic
+3. Sociocultural 
+4. Technological
+5. Legal
+6. Environmental (Sustainability)
+
+An example of a business satisfying both other Cs but cannot succeed because of the context is BigMac. BigMac is a beef burger very successful in western countries. But it is not a success in India because of the sociocultural factors. In India, most population treats cows as holy animal and would not eat beef burger. the business is *Profitable* (no competition) and *Understandable* (customers have loved the taste worldwide).
+
+An example of Technological context is the advent of AI.
+
+## **Segmentation**
+
+{{< define "Segmentation">}}
+Segmentation is the process of dividing customers from heterogenous groups (with different needs) to homogenous groups (similar needs).
+{{< /define >}}
+
+```mermaid
+graph TD
+    PSYCHOLOGICAL(Psychological Variables) --> CLUSTERING(Clustering)
+    BEHAVIORAL(Behavioral Variables) --> CLUSTERING
+    DEMOGRAPHIC(Demographic Variables) --> PROFILING(Profiling)
+    CLUSTERING --> SEGMENTATION(Segmentation)
+    PROFILING --> SEGMENTATION
+```
+
+{{< define "Profiling">}}
+Describing and naming clustered groups.
+{{< /define >}}
+
+An inefficient way to segment customers is through demographic variables (age, geography, location, income, religion). This is commonly used because this data is easier to get and more objective. But the accuracy of the formed segments through this process is often low because people with similar demographics may not have similar needs/problems.
+
+The better way to segment customers is through behavioral and psychological variables. People with similar behavioral patterns and interests are more likely facing similar problems.
+
+{{< define "Psychological Variables">}}
+Personality + Values + Lifestyle/Behaviors
+{{< /define >}}
+
+#### Personality
+Personalities can be of 3 types:
+1. Compliant: Their character traits are:
+   - Desire to belong
+   - Following rules
+   - Need for love and belonging
+2. Aggressive: Their character traits are:
+   - Need for achievement
+   - Success and esteem
+   - Need for power
+3. Detached: Their character traits are:
+   - Break the rules
+   - Need for self-actualization
+   - Do things because they like to do it
+```mermaid
+mindmap
+    Personality
+        Compliant
+            Desire to belong
+            Following rules
+            Need for love and belonging
+        Detached
+            Break the rules
+            Need for self-actualization
+            Do things because they like to do it
+        Aggressive
+            Need for achievement
+            Success and esteem
+            Need for power
+```
+
+Here is an example of commercial targeting [Aggressive Personality Type](https://www.youtube.com/watch?v=8PHzPmyUeS8).
+
+Here is an example of commercial targeting [Complaint Personality type](https://www.youtube.com/watch?v=_y0y_XeS0fM).
+
+Here is an example of commercial targeting [Detached Personality type](https://www.youtube.com/watch?v=btFwYkWkkhs).
+
+
+#### Values
+Values are formed through upbringing. Values are the beliefs that people have about the world. A few examples of values are:
+1. Miserliness
+2. Spendthriftiness
+3. Altruism
+4. Minimalism
+
+#### Lifestyle/Behavior
+Behaviors are the habits that people have. There are more than 1000 documented behaviors. Hence there are many behavioral variables.
+
+### Clustering
+Usually for segmentation, a questionnaire (with multiple choice questions, with choices being levels) is circulated in the market with questions related to customer behavior and psychological variables. The responses are then clustered based on the similarity of the responses.
+
+Each question will be considered as a variable and levels plotted on a graph. Each point represents a customer. The similarity between the responses is calculated by the distance between the points on the graph.
+
+The distance between two points on the graph is calculated as the sum of the squared distances between the points.
+
+{{< collapse "**Click here to view/hide formula for distance**">}}
+Let there be a questionnaire with *n* questions and two customers A and B with responses a₁, a₂, a₃, ..., aₙ and b₁, b₂, b₃,..., bₙ, then distance between them is:
+$$ D_{AB} = \sqrt{\sum_{i=1}^{n}(a_{i} - b_{i})^{2}} $$
+{{< /collapse >}}
 
 The blog is incomplete, I'll update it soon...
 
