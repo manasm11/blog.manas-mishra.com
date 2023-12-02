@@ -25,7 +25,7 @@ page = ["HTML", "RSS", "PRINT"]
   # Author of the site, will be used in meta information
   author.name = "Manas Mishra"
   # Description of the site, will be used in meta information
-  description = "This is a personal blog."
+  description = "Random things I learn"
   # Shows a checkmark for visited pages on the menu
   showVisitedLinks = false
   # Disable search function. It will hide search bar
