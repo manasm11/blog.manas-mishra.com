@@ -27,6 +27,9 @@ mindmap
         Market Scanning Analysis
             5Cs
         Segmentation and Targeting
+            Clustering
+            Profiling
+            Market Sizing
         Market Mix
             4P/7P of Marketing
 ```
@@ -153,6 +156,7 @@ mindmap
             AIDA(AIDA Framework)
             CDM(Customer Decision Model)
         COMPANY(Company)
+            SWOT(SWOT Analysis)
         COLLABORATOR(Collaborator)
 ```
 
@@ -200,7 +204,7 @@ HHI is used to measure the extent of rivalry in a market.
 
 In simple words, HHI is the sum of square of market share of all the products in the market.
 
-{{< collapse "**Click to view/hide the formula...**">}} The formula of HHI:
+{{< collapse "**HHI Formula**">}} The formula of HHI:
 $$
  HHI = \sum_{i}(MS_{i})^{2}
 $$
@@ -332,7 +336,13 @@ An example of a business satisfying both other Cs but cannot succeed because of 
 
 An example of Technological context is the advent of AI.
 
-## **Segmentation**
+### Company/Capability
+Before going into market, the company must know its strengths and the opportunities those strengths will give it, and also the weaknesses and the possible threats those weaknesses can pose to the business. This analysis is called SWOT Analysis (Strengths, Weakness, Opportunities and Threats). SWOT Analysis is by mapping companies strengths to the opportunities those strengths can open up, and mapping weaknesses to the threats those weaknesses can pose to the business.
+
+{{< figure src="/img/swot.svg" caption="SWOT Analysis" alt="SWOT Analysis Table">}}
+
+
+## **Segmentation, Targeting, Positioning**
 
 {{< define "Segmentation">}}
 Segmentation is the process of dividing customers from heterogenous groups (with different needs) to homogenous groups (similar needs).
@@ -345,6 +355,11 @@ graph TD
     DEMOGRAPHIC(Demographic Variables) --> PROFILING(Profiling)
     CLUSTERING --> SEGMENTATION(Segmentation)
     PROFILING --> SEGMENTATION
+    SALES(Sales Potential) --> TARGETING(Targeting)
+    SEGMENTATION --> TARGETING
+    PROFIT(Profit Potential) --> TARGETING
+    UNIQUE(Unique Needs) --> TARGETING
+
 ```
 
 {{< define "Profiling">}}
@@ -414,10 +429,67 @@ Each question will be considered as a variable and levels plotted on a graph. Ea
 
 The distance between two points on the graph is calculated as the sum of the squared distances between the points.
 
-{{< collapse "**Click here to view/hide formula for distance**">}}
+{{< collapse "**Distance Formula**">}}
 Let there be a questionnaire with *n* questions and two customers A and B with responses a₁, a₂, a₃, ..., aₙ and b₁, b₂, b₃,..., bₙ, then distance between them is:
 $$ D_{AB} = \sqrt{\sum_{i=1}^{n}(a_{i} - b_{i})^{2}} $$
 {{< /collapse >}}
+
+The clustering is usually performed by a software. We specify the number of clusters we need, and the software computes the clusters.
+
+{{< collapse "**Clustering Algorithm Brief**">}}
+The algorithm is based on the Euclidean distance formula. The algorithm performs many iterations. In each iteration, the algorithm calculates the distance between all the combinations of two points and clubs the closest points together. After clubbing the points, the algorithm repeats the process until the number of clusters is reached.
+{{< /collapse >}}
+
+{{< figure src="/img/clustering.svg" caption="Clustering Graph" alt="Clustering Graph">}}
+
+After the software has formed the clusters, we'll use the clusters demographic data to label the clusters, so that it is easier to convey the information to people from other departments, like sales department. The process of labeling and naming the clusters is called profiling. Different profiles may have some demographics overlap.
+
+{{% notice info %}}
+The AIO (Activity, Interests, Opinions) Model is a helpful tool to analyze customer behavior.
+{{% /notice %}}
+
+On the basis of segments, customer persona is formed.
+
+Systematic Segmentation is performed in three steps:
+```mermaid
+graph LR
+    QUALITATIVE(Qualitative Research) --> SURVEY(Survey Design)
+    SURVEY --> CLUSTER(Cluster Analysis)
+```
+
+## Targeting
+Targeting is the process of selecting the best group/s among the formed segments. This is generally done through market sizing process. Market Sizing is done by estimating TAM, SAM and SOM.
+
+{{< define "TAM">}}
+Total Addressable Market is the total number of population that would be willing to buy the similar product/service globally.
+{{< /define >}}
+
+{{< define "SAM">}}
+Serviceable Available Market is the subset of TAM which the company can reach to. This can be restricted by geography and resources.
+{{< /define >}}
+
+{{< define "SOM">}}
+Serviceable Obtainable Market is the subset of SAM which company can acquire in a given amount of time. This is restricted by the competition and the percentage of market share the company can acquire.
+{{< /define >}}
+
+Example, if one wishes to setup a lemonade shop at locality, 
+- **TAM** is the total population that would like to drink lemonade.
+- **SAM** will be the areas where the lemonade shop is located, (few kms. around it).
+- **SOM** will be the the customers that will most likely come to the shop.
+
+{{< figure src="/img/tamsamsom.svg" caption="TAM, SAM, SOM" alt="TAM, SAM, SOM">}}
+
+The market sizing estimation can be performed in two ways:
+###### Top-Down Approach
+1. Start with large population population (TAM) and boil down to smaller population (SOM).
+2. If there is a demand constraint of the product, this approach should be preferred. If company can sell to everyone who ask for the product, then Top-Down Approach should be used.
+3. Generally approach is used to get monetary estimates.
+
+###### Bottom-Up Approach
+1. Start with small-scale dynamics and scale it up to larger population. Example for a retail chain, one can estimate sales in one shop and then scale it up to the entire country. A shopkeeper may start with one week's sales and estimate the sales of the whole year.
+2. If there is a supply constraint, this approach should be preferred. Examples are expensive products or products limited by resources.
+3. Generally this approach is used to get units estimates.
+
 
 The blog is incomplete, I'll update it soon...
 
