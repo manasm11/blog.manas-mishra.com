@@ -457,19 +457,25 @@ graph LR
     SURVEY --> CLUSTER(Cluster Analysis)
 ```
 
-## Targeting
-Targeting is the process of selecting the best group/s among the formed segments. This is generally done through market sizing process. Market Sizing is done by estimating TAM, SAM and SOM.
+### Targeting
+Targeting is the process of selecting the best group/s among the formed segments. Targeting is done on the basis of these three factors:
+1. Sales Potential
+2. Profit Potential
+3. Unique Needs
+
+#### Sales Potential
+Sales potential is generally estimates through **Market Sizing** process. Market Sizing is done by estimating TAM, SAM and SOM.
 
 {{< define "TAM">}}
-Total Addressable Market is the total number of population that would be willing to buy the similar product/service globally.
+**Total Addressable Market** is the total number of population that would be willing to buy the similar product/service globally.
 {{< /define >}}
 
 {{< define "SAM">}}
-Serviceable Available Market is the subset of TAM which the company can reach to. This can be restricted by geography and resources.
+**Serviceable Available Market** is the subset of TAM which the company can reach to. This can be restricted by geography and resources.
 {{< /define >}}
 
 {{< define "SOM">}}
-Serviceable Obtainable Market is the subset of SAM which company can acquire in a given amount of time. This is restricted by the competition and the percentage of market share the company can acquire.
+**Serviceable Obtainable Market** is the subset of SAM which company can acquire in a given amount of time. This is restricted by the competition and the percentage of market share the company can acquire.
 {{< /define >}}
 
 Example, if one wishes to setup a lemonade shop at locality, 
@@ -490,7 +496,77 @@ The market sizing estimation can be performed in two ways:
 2. If there is a supply constraint, this approach should be preferred. Examples are expensive products or products limited by resources.
 3. Generally this approach is used to get units estimates.
 
+{{% notice info %}}
+As already discussed, profit potential is estimates by analyzing competition and HHI. Unique needs need to be identified by segments of segmentation.
+{{% /notice %}}
 
-The blog is incomplete, I'll update it soon...
+
+### Positioning
+After identifying target group/s, the company needs to position itself in the market.
+
+```mermaid
+graph TD
+    POSITIONING(Positioning) --> POP(Point of Parity)
+    POSITIONING --> POD(Point of Difference)
+    POP --> CATEGORY(Category POP)
+    POP --> COMPETITIVE(Competitive POP)
+```
+
+{{< define "Positioning">}}
+Positioning is the process of occupying maximum mind-space of customers.
+{{< /define >}}
+
+{{< define "Point of Parity">}}
+Point of parity is the characteristics which are similar to competitors so that customers can trust the new product. Eg. for a new ketchup to gain customer trust, it must look like ketchup (red color, bottled etc).
+{{< /define >}}
+
+{{< define "Point of Difference">}}
+Point of Difference is the differentiators that the new product/service has which can be advertised to customers. Eg. Maggi tomato ketchup campaign emphasized the sweet and spicy taste as differentiator from other ketchups. 
+{{< /define >}}
+
+{{< define "Category POP">}}
+Category Point of Parity is characteristics similar to all other products in the same category, which allow the new product/service to gain trust. Eg. for a new ketchup, the product must be similar to other ketchups.
+{{< /define >}}
+
+{{< define "Competitive POP" >}}
+Competitive Point of Parity is characteristics similar to leading competitors, which allow the new product/service to gain trust. Eg. new mobile phones can advertise themselves having similar processors than top phones.
+{{< /define >}}
+
+{{% notice tip %}}
+A good book on positioning is *"Positioning - The Battle for Your Mind, by Al Ries and Jack Trout"*.
+{{% /notice %}}
+
+## **Marketing Mix**
+### 4Ps of Marketing
+<!-- ```mermaid
+mindmap
+    4Ps
+        Product
+        Place
+        Price
+        Promotion
+``` -->
+A solution consists of four components:
+1. Product/Service
+2. Price
+3. Place
+4. Promotion
+
+{{% notice info %}}
+The 4Ps model was introduced by Jerome McCarthy in 1960.
+{{% /notice %}}
+
+{{< define "Product">}}
+Product is a bundle of features that provide benefits.
+{{< /define >}}
+
+{{< define "Goods">}}
+Product + Service
+{{< /define >}}
+
+Goods can be of three types:
+1. **Search Goods**: Goods that can be evaluated before consumption. Eg. pen, and all the physical products
+2. **Experience Goods**: Goods that can be evaluated after consumption. Eg. movie, trip
+3. **Credence Goods**: Goods that cannot be evaluated even after consumption. Eg. educational courses
 
 <!-- {{< listsubpages >}} -->
