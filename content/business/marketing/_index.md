@@ -66,17 +66,21 @@ Want is a solution to a need/problem.
 
 {{< define "Demand">}}
 Demand is a want along with willingness to pay.
+
 Demand = Want + Willingness to pay
 {{< /define >}}
 
 {{< define "Desire">}}
 Desire is a want that cannot be replaced.
+
 Desire = Want + Can't be replaced
 {{< /define >}}
 
 {{< define "Satisfaction" >}}
 Satisfaction is when expectations meet perceived delivery.
+
 Satisfaction = Expectations - Perceived Delivery
+
 When expectations are greater than perceived delivery, it is called Dissatisfaction.
 {{< /define >}}
 
@@ -462,16 +466,16 @@ Targeting is the process of selecting the best group/s among the formed segments
 #### Sales Potential
 Sales potential is generally estimates through **Market Sizing** process. Market Sizing is done by estimating TAM, SAM and SOM.
 
-{{< define "TAM">}}
-**Total Addressable Market** is the total number of population that would be willing to buy the similar product/service globally.
+{{< define "TAM (Total Addressable Market)">}}
+Total Addressable Market is the total number of population that would be willing to buy the similar product/service globally.
 {{< /define >}}
 
-{{< define "SAM">}}
-**Serviceable Available Market** is the subset of TAM which the company can reach to. This can be restricted by geography and resources.
+{{< define "SAM (Serviceable Available Market)">}}
+Serviceable Available Market is the subset of TAM which the company can reach to. This can be restricted by geography and resources.
 {{< /define >}}
 
-{{< define "SOM">}}
-**Serviceable Obtainable Market** is the subset of SAM which company can acquire in a given amount of time. This is restricted by the competition and the percentage of market share the company can acquire.
+{{< define "SOM (Serviceable Obtainable Market)">}}
+Serviceable Obtainable Market is the subset of SAM which company can acquire in a given amount of time. This is restricted by the competition and the percentage of market share the company can acquire.
 {{< /define >}}
 
 Example, if one wishes to setup a lemonade shop at locality, 
