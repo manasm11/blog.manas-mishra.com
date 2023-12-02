@@ -66,21 +66,17 @@ Want is a solution to a need/problem.
 
 {{< define "Demand">}}
 Demand is a want along with willingness to pay.
-
 Demand = Want + Willingness to pay
 {{< /define >}}
 
 {{< define "Desire">}}
 Desire is a want that cannot be replaced.
-
 Desire = Want + Can't be replaced
 {{< /define >}}
 
 {{< define "Satisfaction" >}}
 Satisfaction is when expectations meet perceived delivery.
-
 Satisfaction = Expectations - Perceived Delivery
-
 When expectations are greater than perceived delivery, it is called Dissatisfaction.
 {{< /define >}}
 
