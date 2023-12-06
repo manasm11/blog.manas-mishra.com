@@ -556,6 +556,7 @@ A solution consists of four components:
 The 4Ps model was introduced by Jerome McCarthy in 1960.
 {{% /notice %}}
 
+#### Product
 {{< define "Product">}}
 Product is a bundle of features that provide benefits.
 {{< /define >}}
@@ -564,9 +565,133 @@ Product is a bundle of features that provide benefits.
 Product + Service
 {{< /define >}}
 
+##### Layers of Goods
+
+{{< figure src="/img/levels_of_product.svg" caption="" alt="Levels of Product">}}
+
+{{< define "Core Benefit">}}
+Bare minimum features that are required to solve the need.
+{{< /define >}}
+
+{{< define "Expected Product">}}
+Bare minimum features that consumers seek in order to accept the product as a solution.
+{{< /define >}}
+
+{{< define "Augmented Product">}}
+Additional features that separate a product from it's competitors.
+{{< /define >}}
+
+{{< define "Potential Product">}}
+The unknown features that can be added to the product to improve it in future.
+{{< /define >}}
+
+Let's take example of a hotel industry. If you are in a jungle with no options to sleep, any closed room-like thing would solve your need to sleep. You would sleep in any cave or barren room on the floor. So, just a room where you can be safe from predators and others for some time is a basic product for the problem. This is called **Core Benefit**.
+
+If you are in city, you'll compare other hotels and expect a good bed, clean bedsheets and clean bathrooms as the bare minimum features to stay in the hotel. This is called **Expected Product**. This can also be called *Point of Parity*.
+
+If among all hotels, only one hotel provides you a television also, that will be called **Augmented Product**. This can also be called *Point of Difference*. Process of adding additional features in order to stand-out is called *Augmentation*.
+
+Whenever there is augmentation in any market, competition mimics the augmentation and and tries to convert augmented product as the expected product.
+
+Another example of soap industry: In 1990s, soap was sold by cutting small pieces from a large bar and sold by weights. Then some soaps augmented the product by selling them in standard packaged bars, gradually the augmented soap became the expected soap.
+
+{{% notice info %}}
+**Branding** is one augmentation that competition cannot mimic.
+{{% /notice %}}
+
+{{< define "Market Maturity">}}
+A theoretical condition where no more augmentations are possible in a product. In practice, every product can be augmented.
+{{< /define >}}
+
+**Potential Product** is an abstract idea which describes the future upgrades in the product.
+
+##### Types of Goods
 Goods can be of three types:
 1. **Search Goods**: Goods that can be evaluated before consumption. Eg. pen, and all the physical products
 2. **Experience Goods**: Goods that can be evaluated after consumption. Eg. movie, trip
-3. **Credence Goods**: Goods that cannot be evaluated even after consumption. Eg. educational courses
+3. **Credence Goods**: Goods that cannot be evaluated even after consumption. The Credence Goods cannot be evaluated either because of lack of expertise or lack of benchmark. Eg. educational courses, doctor's consultation.
+
+##### Product vs Service
+Services are high on these four parameters:
+1. Intangibility (Cannot be measured)
+2. Variability (Changes over time/place)
+3. Simultaneity (Production and consumption happens simultaneously, can be given to multiple consumers simultaneously)
+4. Perishability (Cannot be reused/stored)
+
+###### Intangibility
+Services are high on intangibility (cannot be measured). So to stand-out, companies use **Physical Evidences** so that consumers can compare the services. Example: knowledge gained from a course cannot be directly measured to institutions show placement statistics and exam score.
+
+{{% notice info %}}
+Products are high on tangibility, but to differentiate the product from competitors, intangible elements are added (eg. brand equity).
+{{% /notice %}}
+
+{{< define "Brand">}}
+A promise or trust that a particular product makes.
+{{< /define >}}
+
+###### Variability
+Since services are provided by people, they are subject to variability. Example a class given by a teacher A would be different from teacher B. Even the classes given by teacher A would be different at different times.
+
+To minimize variability, companies put up *processes*.
+
+{{< define "Process">}}
+Standard operating procedure.
+{{< /define >}}
+
+###### Simultaneity
+Services are simultaneously produced and consumed at the same time. Eg. a barber can only cut hair when the consumer is sitting on the barber chair.
+
+Also, services may be provided to multiple consumers simultaneously. The service provider must be trained enough to satisfy multiple consumers simultaneously.
+
+###### Perishability
+Products can be stored and used for future needs. Services cannot be stored and used for future needs.
+
+Eg. a flight ticket cannot be stored and used for future needs, once the flight takes off, empty seats are wasted. To control these wastage, flight companies use dynamic price strategy. They keep prices very low for people booking several months before the flight. This ensures some seats are filled. Then they increase the price as the flight date comes closer, but if the seats aren't being filled, they again reduce the prices. Also, just one day before the price, they increase the prices a lot because people generally book the flights one-day before in case of emergencies.
+
+Similarly, tourism industry also varies prices of hotels based on the season. Food is perishable, hence when it becomes at the verge of perishing, the prices are lowered.
+
+#### Product Planning
+{{< define "Product Planning">}}
+Ensure sustainability of the organization/company.
+{{< /define >}}
+
+To launch new products, companies have to plan the product.
+
+```mermaid
+graph TD
+    PRODUCTSERVICE(Product/Service) --> PLAN(Plan)
+    PLAN --> BRAND(Brand)
+    BRAND --> PROMOTION(Promotion)
+    BRAND --> PLACE(Place/Distribution)
+    BRAND --> PRICE(Pricing)
+```
+
+##### Ansoff Matrix
+
+{{< figure src="/img/ansoff_matrix.svg" alt="Ansoff Matrix" >}}
+
+{{< define "Market Penetration Strategy">}}
+Increasing the consumption of existing products to existing consumers.
+{{< /define >}}
+
+{{< define "Market Development Strategy">}}
+Taking the existing products to new markets. It can be either to different geography or to different segment (customers with different needs).
+{{< /define >}}
+
+{{< define "Product Development Strategy">}}
+Creating new products for existing customers (segments).
+{{< /define >}}
+
+{{< define "Diversification">}}
+Creating new products for new segments. It can be either related (similar manufacturing process) or unrelated (different manufacturing).
+{{< /define >}}
+
+We'll take example of coca-cola. If it wants to penetrate market, it can create new packages like Pet Bottles, or Christmas Special or some limited edition bottles. If it wants to develop new markets, it can try to expand same coca-cola to Arab countries. If it wants to create new products, it can create diet coke. If it wants to diversify, it can create new products like T-Shirts (Unrelated) or Vitamin Water (Related).
+
+##### Extensions
+Apart from Ansoff Matrix, product planning can also be understood through extensions:
+1. **Variant Extension**: Minor variants (Diet Coke)
+2. **Line Extension**: Major variants (Vitamin Water)
+3. **Brand Extension**: Entirely Different (T-Shirts)
 
 <!-- {{< listsubpages >}} -->
