@@ -186,8 +186,8 @@ If there are multiple brands with similar value propositions, and very few buyer
 
 Extreme case is when there is only one buyer and multiple sellers, this market is called Monopsony. One example is market of satellites and missiles. The Government is the only buyer, but there are multiple suppliers.
 
-#### Bargain Power of Sellers
-If the raw material a brand uses has very few sellers, sellers can have greater bargain power to increase their costs. They may ask higher prices for the raw materials or they may sell it to other company.
+#### Bargain Power of Suppliers
+If the raw material a brand uses has very few suppliers, suppliers can have greater bargain power to increase their costs. They may ask higher prices for the raw materials or they may sell it to other company.
 
 Extreme case is when there is only one seller and multiple buyer, this market is called Monopoly. One example is radio frequency bands which can only be bought through governments.
 
@@ -341,7 +341,6 @@ An example of Technological context is the advent of AI.
 Before going into market, the company must know its strengths and the opportunities those strengths will give it, and also the weaknesses and the possible threats those weaknesses can pose to the business. This analysis is called SWOT Analysis (Strengths, Weakness, Opportunities and Threats). SWOT Analysis is by mapping companies strengths to the opportunities those strengths can open up, and mapping weaknesses to the threats those weaknesses can pose to the business.
 
 {{< figure src="/img/swot.svg" caption="SWOT Analysis" alt="SWOT Analysis Table">}}
-
 
 ## **Segmentation, Targeting, Positioning**
 
@@ -694,5 +693,222 @@ Apart from Ansoff Matrix, product planning can also be understood through extens
 1. **Variant Extension**: Minor variants (Diet Coke)
 2. **Line Extension**: Major variants (Vitamin Water)
 3. **Brand Extension**: Entirely Different (T-Shirts)
+
+##### BCG Matrix
+One more model to plan products is BCG Matrix. It is a useless model which classifies the products based on their *Market Growth* and *Relative Market Share*, both of which are not possible to measure objectively. Weird names are provided to the four types of products: *Stars*, *Question Mark*, *Cash Cows* and *Dogs*.
+
+{{< figure src="/img/bcg_matrix.svg" alt="BCG Matrix" >}}
+
+1. **Stars**: Products with high growth rate and high relative market share. It is advised that the company should invest more in marketing of such products.
+2. **Question Marks**: High growth rate and low market share. If the company has surplus capital, the company may take risk in investing in marketing of such products. It is a risky investment, but if the market share increases, it will convert into a *star* product.
+3. **Cash Cows**: High market share and low growth rate. It is advised not to invest more in such businesses, just enough to sustain it and use the profits to fund stars and question marks.
+4. **Dogs**: Low market share and low growth rate. Even though dogs are good creatures, the dog products are assumed useless and should never be invested in.
+
+The fundamental assumption that the growth rate of an industry and relative market share of a product can be measured objectively is incorrect. Therefore personal biases come into play when classifying the products, hence this product is useless. I added this just because it was taught in class.
+
+##### Product Lifecycle
+Another useless model which classifies the product based on some imaginary stages: *Introduction*, *Growth*, *Maturity* and *Decline*. It plots graph between time and sales.
+
+{{< figure src="/img/product_lifecycle.svg" alt="Product Lifecycle" >}}
+
+The only problem with this model is that it is too generalized and oversimplified. Many products don't live long enough to see the growth stage and you cannot predict the decline of any product as long as it is in the market. Innovations and situations can change destiny of any product.
+
+#### Place/Distribution
+{{< define "Distribution">}}
+Process by which products are transferred from Manufacturer to consumer, and feedback and money are transferred from customer to manufacturer.
+{{< /define >}}
+
+```mermaid
+graph TD
+    MANUFACTURER(Manufacturer) --> CFA(Carry and Forwarding Agent/Super Stockist)
+    CFA --> WHOLESALER(Wholesaler/Super Distributer)
+    WHOLESALER --> DISTRIBUTOR(Distributor)
+    DISTRIBUTOR --> RETAILER(Retailer)
+    RETAILER --> CUSTOMER(Customer)
+```
+
+Earlier, when manufacturers were limited, they were the most powerful in this distribution process. Now, with increase in competition, retailers have become the most powerful since they have the information of the customers.
+
+{{% notice info %}}
+Carry and Forwarding Agent is a company which is responsible for carrying the product from manufacturer to wholesaler. This is owned by company but located in different states. This was a technique to reduce tax because VAT was different in different states. After introduction of GST, the CFA is no longer needed.
+{{% /notice %}}
+
+{{< define "Intermediation">}}
+Introducing a new entity in supply chain.
+{{< /define >}}
+
+{{< define "Disintermediation">}}
+Removing the intermediary entity from supply chain.
+{{< /define >}}
+
+{{< define "Reintermediation">}}
+Changing the intermediary entity from supply chain.
+{{< /define >}}
+
+```mermaid
+---
+title = "Disintermediation/D2C"
+---
+graph TD
+    MANUFACTURER(Manufacturer) --> CFA(Carry and Forwarding Agent/Super Stockist)
+    CFA --1% commission--> WHOLESALER(Wholesaler/Super Distributer)
+    WHOLESALER --3% commission--> DISTRIBUTOR(Distributor)
+    DISTRIBUTOR --5% commission--> RETAILER(Retailer)
+    RETAILER --30% commission--> CUSTOMER(Customer)
+    MANUFACTURER --Disintermediation 30% commission--> CUSTOMER
+```
+
+Direct to customer (D2C) is a method developed after the popularity of online markets. The manufacturers can now take direct orders from end customers without a need to have a local retail shop. The distribution happens in almost same way as before. Therefore, D2C is more of a branding game rather than a distribution game.
+
+{{% notice info %}}
+Most of new online businesses are just make use of intermediation processes. Eg. Swiggy is an intermediatory between food producers and food consumers, uber added as an intermediatory entity between cab drivers and customers. MakeMyTrip is a new intermediatory entity between travelers and hotels. Amazon is a distribution based business.
+{{% /notice %}}
+
+{{< figure src="/img/uber_disintermediation.svg" caption="Intermediation by Uber" alt="Intermediation by Uber">}}
+
+##### Optimal Distribution Strategy (Theory by Bhupesh Sir and his guide)
+{{< figure src="/img/optimal_dist.svg" caption="Optimal Distribution Strategy" alt="Optimal Distribution Strategy">}}
+
+{{< define "High Information Product">}}
+Products for which information is also needs to be provided along with the product. Any new technology can be regarded as an High Information Product. This depends more on how customer perceives the product.
+{{< /define >}}
+
+{{< define "High Customization Product">}}
+Products which are highly customized for individual customer is called high customization product. Eg. Dominos, Starbucks.
+{{< /define >}}
+
+Concentrated and fragmented market is considered on geographic basis and the number of customers in total.
+
+###### Direct Distribution / Vertical Marketing
+If the product is highly customized or highly informational, and very few customers are there to deliver to, then it is recommended that company should directly fulfil needs of the customers. Eg. aircraft
+
+###### Franchise
+If the product is highly customized or highly informational, but the customers are scattered all across geography, then it is recommended that company should franchise the product to the customers. Eg. Kaventers, Tata Motors. This makes it easier to train franchisees so the customers can get customized products and proper training for their products.
+
+###### Hybrid Model
+If the product is low in customizations and less information is needed for customer to use it, and customers are located in smaller geography or customers are less in number, it is recommended that company should make deals directly with the customers and a third party should fulfill the needs of the customers. 
+
+###### Intensive 3rd Party Distribution
+If the product is low on customization and less information is needed, and customers are scattered in the geography, then it is recommended to be distributed via classical third party distribution. Eg. soap, pen etc.
+
+The distribution systems often change over time. Eg. MacBooks were earlier sold only via franchise, but now they are available at 3rd party distribution platforms like amazon.
+
+##### Intra-Brand Competition
+```mermaid
+graph TD
+    MANUFACTURER(Manufacturer) --channel 1--> CUSTOMER(Customer)
+    MANUFACTURER --channel 2--> RETAILER1(Retailer)
+    RETAILER1 --channel 2--> CUSTOMER
+    MANUFACTURER --channel 3--> DISTRIBUTOR(Distributor)
+    DISTRIBUTOR --channel 3--> RETAILER2(Retailer)
+    RETAILER2 --channel 3--> CUSTOMER
+```
+
+Same product can reach the customer via different channels and the price for customers will be different. This is called *Intra-Brand Competition* or *Intra-Channel Competition* or *Channel Conflict*. This may lead to reduction in price of the product.
+
+{{< define "Webrooming">}}
+Checking product and price online, and buying offline.
+{{< /define >}}
+
+{{< define "Showrooming">}}
+Checking product and price offline, and buying online.
+{{< /define >}}
+
+There are two methods to avoid it:
+###### Short-Term Method
+Make certain SKUs exclusive for a certain channel. Eg. Samsung may restrict newer models exclusive for its own outlets and older models can be sold via the classic 3rd party distribution.
+
+###### Long-Term Method (Omni Channel Experience)
+This is a philosophy that emphasizes seamless experience on all the touchpoints. That means, customer may be able to check the product in any channel and buy it in any channel. This is practically difficult because then the incentive systems needs to change. Currently, sales incentives are based upon sales made through specific channel, but this system would not be fair in an omni-channel experience.
+
+{{< define "Touchpoint">}}
+Any interaction of customer with product/brand is called a touchpoint.
+{{< /define >}}
+
+##### Inter-Brand Competition
+To deal with inter-brand competition between two supermarkets, brands use the following two techniques:
+1. **EDLP**: Every Day Low Price means keeping the prices very for all the products. This improves customer loyalty and increases volume of sales, if advertised properly.
+2. **Loss Leader**: Selling a product, in limited quantity, at loss is another strategy to increase footfall in supermarket. Usually the loss leader is kept at the end of the store so that customers look at all the other products in store and perhaps make purchases. Eg. first kg of sugar may be sold at loss and kept at the corner of store.
+
+**Anchor Store**: Malls often have a popular store which attracts customers into the Malls. This is called anchor store strategy.
+
+#### Promotion
+Promotion can serve two purposes: Create Awareness and Induce Purchase (Sale).
+```mermaid
+graph TD
+    PROMOTION(Promotion) --> AWARENESS(Create Awareness)
+    PROMOTION --> SALE(Purchase Inducement)
+    AWARENESS --toward--> NEED(Consumption/Need)
+    AWARENESS --toward--> PRODUCT(Product/Product Category)
+    AWARENESS --toward--> BRAND(Brand)
+```
+
+##### **Dolan's 6M Framework**
+
+# Reference
+These are a must-read for anyone interested in a career in Consulting and Marketing.
+
+1. Marketing Strategy - An Overview by Raymond Corey
+2. Framework for Marketing Strategy Formation by Robert Dolan
+3. Marketing Myopia - Theodore Levitt
+4. Consumer Behaviour and the Buying Process
+
+There are two articles on Segmentation.
+1. New Criteria for Market Segmentation
+2. Rediscovering Market Segmentation
+
+For positioning and targeting please read the sections in Corey and Dolan papers. You can also refer to the " Positioning: The Battle for Your Mind" by Al Ries and Jack Trout for further reading. (https://www.amazon.in/Positioning-Battle-Your-Jack-Trout/dp/0071373586)
+
+I have also attached 5 papers on Product and Service Management. These articles will give you a basic understanding for a Product Management role.
+
+1. Exploit the PLC Concept
+2. Forget the Product Life Cycle
+3. Marketing Intangible Products and Product Intangibles
+4. Designing Product and Business Portfolios
+5. Product Policy
+
+Also find attached the articles on Branding, Distribution, Pricing and Promotion. These articles cover the non-product part of the marketing mix.
+
+Articles on Branding
+
+1. Should You Take Your Brand to Where the Action Is?
+2. The Brand Report Card
+3. Branding in the Age of Social Media
+
+Articles on Sales and Distribution
+
+1. The Customer Has Escaped
+2. Strategic Channel Design
+
+Articles on Pricing
+
+1. Beyond the Many Faces of Price: An Integration of Pricing Strategies
+2. Economic Foundations of Pricing
+
+Article on Promotion
+
+1. Integrated Marketing Communication by Dolan
+
+Reading Material
+1. {{< downloadablelink "/marketing_docs/Beyond the Many Faces of Price.pdf" "Beyond the Many Faces of Price" >}}
+2. {{< downloadablelink "/marketing_docs/Core Reading_ Framework for Marketing Strategy Formation.pdf" "Framework for Marketing Strategy Formation" >}}
+3. {{< downloadablelink "/marketing_docs/Designing Product and Business Portfolios.pdf" "Designing Product and Business Portfolios" >}}
+4. {{< downloadablelink "/marketing_docs/Economic Foundations of Pricing_Nagle.pdf" "Economic Foundations of Pricing ~ Nagle" >}}
+5. {{< downloadablelink "/marketing_docs/Exploit the Product Life Cycle.pdf" "Exploit the Product Life Cycle" >}}
+6. {{< downloadablelink "/marketing_docs/Forget the Product Life Cycle Concept.pdf" "Forget the Product Life Cycle Concept" >}}
+7. {{< downloadablelink "/marketing_docs/Integrated Marketing Communications.pdf" "Integrated Marketing Communications" >}}
+8. {{< downloadablelink "/marketing_docs/Marketing Consumer Behaviour and Buying Process.pdf" "Marketing Consumer Behaviour and Buying Process" >}}
+9. {{< downloadablelink "/marketing_docs/Marketing Intangible Products and Product Intangibles.pdf" "Marketing Intangible Products and Product Intangibles" >}}
+10. {{< downloadablelink "/marketing_docs/Marketing Myopia.pdf" "Marketing Myopia" >}}
+11. {{< downloadablelink "/marketing_docs/Marketing Strategy—An Overview.pdf" "Marketing Strategy — An Overview" >}}
+12. {{< downloadablelink "/marketing_docs/New Criteria for Market Segmentation.pdf" "New Criteria for Market Segmentation" >}}
+13. {{< downloadablelink "/marketing_docs/Product Policy Quelch.pdf" "Product Policy Quelch" >}}
+14. {{< downloadablelink "/marketing_docs/Should you take your brand to where the action is.pdf" "Should you take your brand to where the action is" >}}
+15. {{< downloadablelink "/marketing_docs/The Brand Report Card.pdf" "The Brand Report Card" >}}
+16. {{< downloadablelink "/marketing_docs/The Customer Has Escaped.pdf" "The Customer Has Escaped" >}}
+
+
+
+
 
 <!-- {{< listsubpages >}} -->
