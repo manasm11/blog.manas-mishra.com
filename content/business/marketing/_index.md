@@ -833,6 +833,20 @@ To deal with inter-brand competition between two supermarkets, brands use the fo
 **Anchor Store**: Malls often have a popular store which attracts customers into the Malls. This is called anchor store strategy.
 
 #### Promotion
+
+##### **Dolan's 6M Framework**
+A good paper to have better reference is {{< downloadablelink "/marketing_docs/Integrated Marketing Communications.pdf" "Integrated Marketing Communications" >}} paper.
+
+The framework is quite exhaustive. It consists of following steps:
+1. **Mission**: What is my objective?
+2. **Market**: Who is my customer?
+3. **Message**: What I want to convey?
+4. **Medium**: How can I reach them?
+5. **Money**: How much resources I need?
+6. **Measurement**: How effective was the promotion?
+
+If these questions are answered accurately and in sequence, probability of running a successful campaign is very high.
+
 Promotion can serve two purposes: Create Awareness and Induce Purchase (Sale).
 ```mermaid
 graph TD
@@ -843,7 +857,45 @@ graph TD
     AWARENESS --toward--> BRAND(Brand)
 ```
 
-##### **Dolan's 6M Framework**
+##### Creating Awareness
+###### Advertisement
+There are many types of advertisements, some common types of advertisements are:
+1. Regular Advertisement: Explains the brand
+2. Ambush Advertisement: Use competitor's advertisements to promote your own product. Eg: [Volvo Super Bowl Campaign](https://www.youtube.com/watch?v=CVhE6WFnySs), when Coca Cola was official partner of ICC, [Pepsi's Nothing Official About It Campaign](https://youtube.com/watch?v=riwOAtmMhZY)
+3. Guerilla Advertisement: It takes customers by surprise. Eg. [Tea for Trump Advertisement](https://www.youtube.com/watch?v=hYy7qy2AQeo)
+4. Surrogate Advertisement: Use a surrogate to advertise. Very common with products that are illegal to advertise. Eg. [Men Will Be Men Campaign for Imperial Blue](https://www.youtube.com/watch?v=kJofDnUYPhw) whiskey brand was advertised through CD.
+5. Social Advertisement: Focuses on social cause and the brand/product is becomes the backdrop of the advertisement. Eg. [Lifebouy help a child reach 5 campaign](https://www.youtube.com/watch?v=UF7oU_YSbBQ)
+6. User Generated: When the user promotes the brand/product. Eg. when maggi was accused of harmful ingredients, it started tell your maggi story campaign where customers shared their experiences with maggi.
+7. Subliminal Advertisement: Subconscious cues that trigger brand recall. Eg: [Anar Foundation "Only For Child"](https://www.youtube.com/watch?v=6zoCDyQSH0o), many company logos have subliminal messages, [watch this video for details](https://www.youtube.com/watch?v=CHkkdDRqJOI).
+8. Captive Advertisement: Advertising when customer is in captive state, i.e. it has nothing else to do. Eg. World Cup Urinal Goal, was added in male urinals to spread awareness of not spilling urine while urinating (in a captive situation). Also, many companies advertise in flights and trains because the people are in captive state then, and are bound to pay attention to such advertisements.
+9. Fear Based Advertisement: Eg. Smoking kills campaign to spread awareness around cigarets. Many health and diet companies use this technique to promote their products.
+10. Comparative Advertisement: Directly comparing other brand. Eg. [Apple and Blackberry Series of Advertisements](https://www.youtube.com/watch?v=zMFuPbUQBPQ), [Smart Car Race Advertisement](https://www.youtube.com/watch?v=b1iJJZfB7i0). It is illegal in India to take name of another brand in any advertisement.
+
+These advertisement types are not exclusive, these are just ideas to provide direction of thinking.
+
+Apart from advertising, there are other methods to promote awareness like:
+- Direct Email
+- Exhibitions and Tradefairs (for B2B)
+
+##### Purchase Inducement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Reference
 These are a must-read for anyone interested in a career in Consulting and Marketing.
