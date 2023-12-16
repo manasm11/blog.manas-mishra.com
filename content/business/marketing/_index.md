@@ -184,12 +184,12 @@ mindmap
 #### Bargain Power of Buyers
 If there are multiple brands with similar value propositions, and very few buyers, ie. supply is greater than demand, the buyers have better power to bargain and ask for better prices. They ask brands to lower prices or they may buy from other brands.
 
-Extreme case is when there is only one buyer and multiple sellers, this market is called Monopsony. One example is market of satellites and missiles. The Government is the only buyer, but there are multiple suppliers.
+Extreme case is when there is only one buyer and multiple suppliers, this market is called Monopsony. One example is market of satellites and missiles. The Government is the only buyer, but there are multiple suppliers.
 
 #### Bargain Power of Suppliers
 If the raw material a brand uses has very few suppliers, suppliers can have greater bargain power to increase their costs. They may ask higher prices for the raw materials or they may sell it to other company.
 
-Extreme case is when there is only one seller and multiple buyer, this market is called Monopoly. One example is radio frequency bands which can only be bought through governments.
+Extreme case is when there is only one supplier and multiple buyer, this market is called Monopoly. One example is radio frequency bands which can only be bought from governments.
 
 #### Threat of Substitution
 If a new product is launched in the market with better value proposition, the brand may have to reduce their prices to increase their value of product and match it with the new product. (Value = ΣBenefits - ΣCosts)
@@ -197,7 +197,7 @@ If a new product is launched in the market with better value proposition, the br
 #### Threat of New Entrance
 If new product enters the market, it will start replacing the existing products. To increase the customers, the other brands will try to increase their products value by decreasing prices (assuming it cannot add other benefits). This will make the market less profitable.
 
-#### Extent o Rivalry
+#### Extent of Rivalry
 Rivalry of market depends of two factors, the number of products and the distribution of market shares. If there are more number of products, it means the market is more competitive. If the market share is evenly distributes amongst all products, means the market is more competitive.
 
 ##### Herfindahl-Hirschman Index (HII)
@@ -942,22 +942,22 @@ Article on Promotion
 1. Integrated Marketing Communication by Dolan
 
 Reading Material
-1. {{< downloadablelink "/marketing_docs/Beyond the Many Faces of Price.pdf" "Beyond the Many Faces of Price" >}}
-2. {{< downloadablelink "/marketing_docs/Core Reading_ Framework for Marketing Strategy Formation.pdf" "Framework for Marketing Strategy Formation" >}}
-3. {{< downloadablelink "/marketing_docs/Designing Product and Business Portfolios.pdf" "Designing Product and Business Portfolios" >}}
-4. {{< downloadablelink "/marketing_docs/Economic Foundations of Pricing_Nagle.pdf" "Economic Foundations of Pricing ~ Nagle" >}}
-5. {{< downloadablelink "/marketing_docs/Exploit the Product Life Cycle.pdf" "Exploit the Product Life Cycle" >}}
-6. {{< downloadablelink "/marketing_docs/Forget the Product Life Cycle Concept.pdf" "Forget the Product Life Cycle Concept" >}}
-7. {{< downloadablelink "/marketing_docs/Integrated Marketing Communications.pdf" "Integrated Marketing Communications" >}}
-8. {{< downloadablelink "/marketing_docs/Marketing Consumer Behaviour and Buying Process.pdf" "Marketing Consumer Behaviour and Buying Process" >}}
-9. {{< downloadablelink "/marketing_docs/Marketing Intangible Products and Product Intangibles.pdf" "Marketing Intangible Products and Product Intangibles" >}}
-10. {{< downloadablelink "/marketing_docs/Marketing Myopia.pdf" "Marketing Myopia" >}}
-11. {{< downloadablelink "/marketing_docs/Marketing Strategy—An Overview.pdf" "Marketing Strategy — An Overview" >}}
-12. {{< downloadablelink "/marketing_docs/New Criteria for Market Segmentation.pdf" "New Criteria for Market Segmentation" >}}
-13. {{< downloadablelink "/marketing_docs/Product Policy Quelch.pdf" "Product Policy Quelch" >}}
-14. {{< downloadablelink "/marketing_docs/Should you take your brand to where the action is.pdf" "Should you take your brand to where the action is" >}}
-15. {{< downloadablelink "/marketing_docs/The Brand Report Card.pdf" "The Brand Report Card" >}}
-16. {{< downloadablelink "/marketing_docs/The Customer Has Escaped.pdf" "The Customer Has Escaped" >}}
+1. {{< downloadablelink "https://drive.google.com/file/d/11OnRastCA9Y785ueKz4GaCqZwDg8LbtN/view?usp=sharing" "Beyond the Many Faces of Price" >}}
+2. {{< downloadablelink "https://drive.google.com/file/d/1SW4OQU8tC05vFQWsYiXrpzpXGfNjx6HD/view?usp=sharing" "Framework for Marketing Strategy Formation" >}}
+3. {{< downloadablelink "https://drive.google.com/file/d/1_8-GnPIRmuWfi1cx2H9TV9pgsm9WyQk2/view?usp=sharing" "Designing Product and Business Portfolios" >}}
+4. {{< downloadablelink "https://drive.google.com/file/d/1-Atvr_ehKO_lIDluC77k4sh_wUzNP535/view?usp=sharing" "Economic Foundations of Pricing ~ Nagle" >}}
+5. {{< downloadablelink "https://drive.google.com/file/d/1i69T6nnCgInScXDCGGKD6Jnq_9BKipNe/view?usp=sharing" "Exploit the Product Life Cycle" >}}
+6. {{< downloadablelink "https://drive.google.com/file/d/18mNsBhYh-51Qv61k3etCR4yFZB8V2xLy/view?usp=sharing" "Forget the Product Life Cycle Concept" >}}
+7. {{< downloadablelink "https://drive.google.com/file/d/1GkQyg9UNUlXlDoIxjSGhKoCxl5_wdh7H/view?usp=sharing" "Integrated Marketing Communications" >}}
+8. {{< downloadablelink "https://drive.google.com/file/d/1uwXOJOtZyJ-FQ_TQ-ivPDdKCWck34M02/view?usp=sharing" "Marketing Consumer Behaviour and Buying Process" >}}
+9. {{< downloadablelink "https://drive.google.com/file/d/13oU5fy-y7UGelmMxnHKrww3TQS7KIbI1/view?usp=sharing" "Marketing Intangible Products and Product Intangibles" >}}
+10. {{< downloadablelink "https://drive.google.com/file/d/15KxkJX1YUJCaprLWzZ8k-EBEiDfTL4EJ/view?usp=sharing" "Marketing Myopia" >}}
+11. {{< downloadablelink "https://drive.google.com/file/d/1rvZS-2dE_B6XhdSFcI8lPmT1MQm-zP6X/view?usp=sharing" "Marketing Strategy — An Overview" >}}
+12. {{< downloadablelink "https://drive.google.com/file/d/1c_EEe876g8dEFKzJO91aaqVALu9WCoeO/view?usp=sharing" "New Criteria for Market Segmentation" >}}
+13. {{< downloadablelink "https://drive.google.com/file/d/1qDL-EopWc2D8tqScq3w8yOfPXXgRQI_V/view?usp=sharing" "Product Policy Quelch" >}}
+14. {{< downloadablelink "https://drive.google.com/file/d/1d6dw42WiGrgN11sTCAc4b73iQLi73O4I/view?usp=sharing" "Should you take your brand to where the action is" >}}
+15. {{< downloadablelink "https://drive.google.com/file/d/1d6dw42WiGrgN11sTCAc4b73iQLi73O4I/view?usp=sharing" "The Brand Report Card" >}}
+16. {{< downloadablelink "https://drive.google.com/file/d/1Cr25aH2iDs8NqgyQOt4uBn8G_z-P8wUL/view?usp=sharing" "The Customer Has Escaped" >}}
 
 
 
