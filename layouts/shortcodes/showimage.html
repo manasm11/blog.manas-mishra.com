@@ -1,4 +1,4 @@
-{{ $imagePath := printf "img/image-%s.png" (.Get 0) | printf "%s"}}
+{{ $imagePath := printf "img/image-%s" (.Get 0) | printf "%s"}}
 {{ $captionAltText := .Get 1 }}
 {{ $resizeOptions := "600x webp text" }}
 

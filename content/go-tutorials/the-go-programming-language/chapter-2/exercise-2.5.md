@@ -100,7 +100,7 @@ func BenchmarkPopCount2(b *testing.B) {
 
 Running the benchmark with `go test -bench ./popcount` gives this result:
 
-{{< showimage "019" "Output of benchmark" "800x webp text" >}}
+{{< showimage "019.png" "Output of benchmark" "800x webp text" >}}
 
 Clearly, the *PopCount* is much more efficient than *PopCount2*.
 

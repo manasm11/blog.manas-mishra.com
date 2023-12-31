@@ -180,6 +180,6 @@ func convertAndPrint(n float64) {
 {{< /highlight >}}
 
 Let's run the command `go run main.go -40 50` to check the output.
-{{< showimage "016" "Output of the command." "400x webp text" >}}
+{{< showimage "016.png" "Output of the command." "400x webp text" >}}
 
 {{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}

@@ -69,7 +69,7 @@ func f(x, y float64) float64 {
 
 You can run the modified file with `go run main.go > temp.svg`. You can download the generated SVG from {{< downloadablelink "/img/temp.svg" "this link 'temp.svg'" >}}. 
 
-{{< showimage "020" "Screenshot of temp.svg" "400x webp text" >}}
+{{< showimage "020.png" "Screenshot of temp.svg" "400x webp text" >}}
 
 Since we need to color svg according to height, we would need to return height also from the *corner* function. Then we'll calculate the average height of all the corners and use it to create color conditionally. One observation is that all the values of *z* were from *-1 to +1*. Here is the final code:
 
@@ -149,6 +149,6 @@ func f(x, y float64) float64 {
 You can run generate the svg file using `go run main.go > colorful.svg`. You may download the file through {{< downloadablelink "/img/colorful.svg" "this link" >}}.
 
 
-{{< showimage "022" "Colored polygons in SVG rendering" "800x webp text" >}}
+{{< showimage "022.png" "Colored polygons in SVG rendering" "800x webp text" >}}
 
 {{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}

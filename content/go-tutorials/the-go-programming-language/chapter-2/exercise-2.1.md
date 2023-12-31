@@ -126,6 +126,6 @@ func main() {
 {{< /highlight >}}
 
 Here is the output of running `go run main.go` command.
-{{< showimage "015" "console output of running the program" "400x webp text" >}}
+{{< showimage "015.png" "console output of running the program" "400x webp text" >}}
 
 {{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}

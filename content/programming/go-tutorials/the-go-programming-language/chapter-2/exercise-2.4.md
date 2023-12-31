@@ -144,7 +144,7 @@ func BenchmarkPopCount2(b *testing.B) {
 
 Let's run the benchmark using `go test -bench=Benchmark`.
 
-{{< showimage "018" "Output of running benchmarks" "800x webp text" >}}
+{{< showimage "018.png" "Output of running benchmarks" "800x webp text" >}}
 
 Clearly, the original *PopCount* function is most optimized and there is not much performance difference between *PopCount2* and *PopCount3*.
 

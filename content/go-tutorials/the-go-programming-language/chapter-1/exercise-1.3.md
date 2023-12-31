@@ -85,7 +85,7 @@ func main() {
 {{< / highlight >}}
 
 Here is the output I got from running it.
-{{< showimage "001" "Time taken for each echo call is 0 seconds." >}}
+{{< showimage "001.png" "Time taken for each echo call is 0 seconds." >}}
 
 To get better comparison for performance of each echo function, we need to run it multiple times. One way is to execute each echo function in a for loop for *n* number of times which in our case is *1000*. We'll make following changes to the code:
 
@@ -120,7 +120,7 @@ func main() {
     fmt.Println("Time to execute echo3 =", stop3.sub(start3))
 }
 {{< / highlight >}}
-{{< showimage "002" "Output of running program after the changes." >}}
+{{< showimage "002.png" "Output of running program after the changes." >}}
 
 This seems to conclude that echo1 is slowest and echo2 and echo3 have almost equal performance. It may seem to be correct comparison, but there is an issue. Here, our echo functions are doing two tasks: calculating the output string and printing them. But we need to compare the time taken to calculate string only. So we'll make our code more testable by returning the calculated string instead of printing it, by changing the following lines:
 
@@ -150,7 +150,7 @@ func echo3() string {
 
 Here's the output after running `go run ./main.go`.
 
-{{< showimage "001" "Console output after making echo functions more testable. Time take show 0 seconds." >}}
+{{< showimage "001.png" "Console output after making echo functions more testable. Time take show 0 seconds." >}}
 
 We'll need to increase *n*. Let's change it:
 {{< highlight go "title=main.go,linenos=table,hl_lines=9" >}}
@@ -165,7 +165,7 @@ import (
 const n = 1000000
 {{< / highlight >}}
 Here's the output of running `go run ./main.go`
-{{< showimage "004" "Console output of running program after changing n to 1000000" >}}
+{{< showimage "004.png" "Console output of running program after changing n to 1000000" >}}
 
 This concludes that echo3 function has the best performance, and echo1 and echo2 functions have almost equal performance.
 
@@ -200,9 +200,9 @@ func BenchmarkEcho3(b *testing.B) {
 We can run the individual benchmarks with the `go test -bench=BenchmarkEcho1`, `go test -bench=BenchmarkEcho2` and `go test -bench=BenchmarkEcho3` commands. Here are the results:
 
 
-{{< showimage "005" "results of BenchmarkEcho1" "800x webp text" >}}
-{{< showimage "006" "results of BenchmarkEcho2" "800x webp text" >}}
-{{< showimage "007" "results of BenchmarkEcho3" "800x webp text" >}}
+{{< showimage "005.png" "results of BenchmarkEcho1" "800x webp text" >}}
+{{< showimage "006.png" "results of BenchmarkEcho2" "800x webp text" >}}
+{{< showimage "007.png" "results of BenchmarkEcho3" "800x webp text" >}}
 
 These results conclude the same thing that echo3 function is most optimal, and echo1 and echo2 functions are almost equal in performance.
 

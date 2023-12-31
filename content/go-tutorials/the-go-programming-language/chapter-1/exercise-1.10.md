@@ -59,7 +59,7 @@ func fetch(url string, ch chan<- string) {
 {{< / highlight >}}
 
 We can try to run the program with multiple websites as argument with this command `go run main.go https://golang.org http://gopl.io https://godoc.org`
-{{< showimage "012" "Output of running program with multiple websites as argument." "600x webp text" >}}
+{{< showimage "012.png" "Output of running program with multiple websites as argument." "600x webp text" >}}
 
 The first part of question asks us to investigate caching mechanism of the *http.Get* method. To do that, we will just duplicate a few lines of code in the program to make the http calls twice.
 
@@ -85,7 +85,7 @@ func main() {
 
 Now let's run the same command as above: `go run main.go https://golang.org http://gopl.io https://godoc.org`
 
-{{< showimage "013" "Output of running program after modifying to analyze caching. We can see the second calls take less time than first one's due to caching." "600x webp text" >}}
+{{< showimage "013.png" "Output of running program after modifying to analyze caching. We can see the second calls take less time than first one's due to caching." "600x webp text" >}}
 
 Now, we need to store the console output to a file for later review. We'll do this by using *os.OpenFile* function and opening a file in *create* and *write* modes. Here's the final code of solution.
 

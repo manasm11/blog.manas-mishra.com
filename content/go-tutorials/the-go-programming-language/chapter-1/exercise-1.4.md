@@ -78,7 +78,7 @@ asd
 
 We'll run the `go run main.go temp` in command line. Here is the output:
 
-{{< showimage "008" "Output of running the program on temp file." "300x webp text" >}}
+{{< showimage "008.png" "Output of running the program on temp file." "300x webp text" >}}
 
 Now let's create few more text files to test: *temp2* and *temp3*.
 
@@ -99,7 +99,7 @@ dfsdfsa
 {{< / highlight >}}
 
 Note that *temp2* and *temp3* have no duplicate lines. Let's execute `go run ./main.go temp temp2 temp3` command.
-{{< showimage "009" "Output of running the program on temp, temp2 and temp3 files." "300x webp text" >}}
+{{< showimage "009.png" "Output of running the program on temp, temp2 and temp3 files." "300x webp text" >}}
 
 {{< highlight diff "title=main.go,linenos=table,linenostart=9" >}}
 func main() {
@@ -133,7 +133,7 @@ func main() {
 }
 {{< / highlight >}}
 
-{{< showimage "010" "Output of running the updated program on temp, temp2 and temp3 files. The output shows only temp file because only this has duplicate lines." "100x webp text" >}}
+{{< showimage "010.png" "Output of running the updated program on temp, temp2 and temp3 files. The output shows only temp file because only this has duplicate lines." "100x webp text" >}}
 
 Just to confirm our program runs as we expect it to run, we'll add duplicate lines in *temp3* also and check the output again.
 
@@ -150,7 +150,7 @@ dfsdfsa
 
 Now let's run again `go run ./main.go temp temp2 temp3`. And check the output.
 
-{{< showimage "011" "Output of running the updated program on temp, temp2 and temp3 files after adding duplicate lines in temp3. The output shows temp and temp3 as expected." "300x webp text" >}}
+{{< showimage "011.png" "Output of running the updated program on temp, temp2 and temp3 files after adding duplicate lines in temp3. The output shows temp and temp3 as expected." "300x webp text" >}}
 
 For reference, this is the final main.go file of the solution:
 

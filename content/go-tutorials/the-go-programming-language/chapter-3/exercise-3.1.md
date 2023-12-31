@@ -69,7 +69,7 @@ func f(x, y float64) float64 {
 
 We must try to run the file with `go run main.go > temp.svg`. You can download the svg from {{< downloadablelink "/img/temp.svg" "this link 'temp.svg'" >}}. If you look at {{< downloadablelink "/img/temp.svg" "this temp.svg file" >}}, there are **1001** lines. We'll change the code to prevent polygons with non-finite *f* function values and see how many lines the new svg has.
 
-{{< showimage "020" "Screenshot of temp.svg" "400x webp text" >}}
+{{< showimage "020.png" "Screenshot of temp.svg" "400x webp text" >}}
 
 To check a *float64* is a finite number or not, we'll use two functions from *math* package: `math.IsInf` and `math.IsNan`.
 
@@ -175,6 +175,6 @@ func isFinite(num float64) bool {
 
 After running the `go run main.go > temp2.svg`, we get the svg that looks similar. But if you look at the {{< downloadablelink "/img/temp2.svg" "actual svg file (temp2.svg)" >}}, there are **997** lines.
 
-{{< showimage "021" "Difference between temp.svg and temp2.svg lines" "800x webp text" >}}
+{{< showimage "021.png" "Difference between temp.svg and temp2.svg lines" "800x webp text" >}}
 
 {{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}

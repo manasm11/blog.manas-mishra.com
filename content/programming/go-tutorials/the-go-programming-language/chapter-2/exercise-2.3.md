@@ -107,7 +107,7 @@ func BenchmarkPopCountLoop(b *testing.B) {
 
 We'll compare the two functions by running the benchmarks using `go test -bench=Benchmark`
 
-{{< showimage "017" "Console output of benchmark." "800x webp text" >}}
+{{< showimage "017.png" "Console output of benchmark." "800x webp text" >}}
 
 Clearly, the *PopCount* function takes almost 10 times less time than *PopCountLoop* function. Single line execution in *PopCount* is much more efficient than loop execution in *PopCountLoop*.
 

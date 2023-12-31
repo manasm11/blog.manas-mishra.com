@@ -139,6 +139,6 @@ The defer statement ensures that once the fetch function completes, it removes o
 
 This function would take 2-3 days to execute 1 million http calls. You may want to run this type of programs in remote servers if you are gathering any useful data from websites. To test it locally, I reduced the number of websites to 200 in the csv file.
 
-{{< showimage "014" "time elapsed 34.24 seconds." "800x webp text" >}}
+{{< showimage "014.png" "time elapsed 34.24 seconds." "800x webp text" >}}
 
 {{< purchasebook link="https://amzn.to/46n8kiI" title="The Go Programming Language by Alan Donovan (Author), Brian Kernighan (Author)" >}}
