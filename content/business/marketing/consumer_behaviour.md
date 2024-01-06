@@ -68,22 +68,23 @@ Valence can be towards:
 3. Problem
 
 Examples:
-{{< youtube "FGVgbuD_3ew" >}}
+
+- [Krack Heel Repair New Ad 2014 Salesmen OFFICAL HD](https://www.youtube.com/watch?v=FGVgbuD_3ew):
 This is an example of an avoidance valence advertisement.
 
-{{< youtube "LcW_pS7egq0" >}}
+- [Itch Guard](https://www.youtube.com/watch?v=LcW_pS7egq0):
 This is an example of avoidance valence advertisement.
 
-{{< youtube "O6TyQDh0IlM" >}}
+- [Colgate Total Pro Gum Health Ad English](https://www.youtube.com/watch?v=O6TyQDh0IlM):
 This is an example of avoidance valence advertisement.
 
-{{< youtube "SRKs0emTPI0" >}}
+- [Close Up TV Commercial (2) - Paas Aao Na - Lintas, BLUE i & MOKKSHA](https://www.youtube.com/watch?v=SRKs0emTPI0):
 This is an example of approach valence advertisement.
 
-{{< youtube "golj0-ucS_o" >}}
+- [Pension Plans - HDFC Standard Life Insurance - Sar Utha Ke Jiyo](https://www.youtube.com/watch?v=golj0-ucS_o):
 The example has both aspects, starting with avoidance then ending with approach valence.
 
-{{< youtube "dsNAWGOBUBI" >}}
+- [Apne Parivar Ko Apne Dum Pe Jeena Sikhao](https://www.youtube.com/watch?v=dsNAWGOBUBI):
 The example is of approach valence.
 
 >If the values are equal, then engagement is more with approach valence advertisements. Marketers should try to create advertisements that are more approach valence.
@@ -134,38 +135,47 @@ Learning is also called conditioning. There are three types of conditioning:
 
 ### Classical Conditioning
 Experiments were conducted by Ivan Pavlov.
-{{< youtube "jd7Jdug5SRc" >}}
+
+- [Pavlov’s Classical Conditioning](https://www.youtube.com/watch?v=jd7Jdug5SRc):
 In experiment, he gave food to dogs, the dogs salivated. He rang a bell, the dogs showed no response. Then he gave rang the bell then gave the food for two months. Then he just rang the bell without giving food, the dogs still salivate.
 
 He generalized the theory that when an Neutral Stimulus (bell) is combined with an Unconditional Stimulus(food) for some time, the Unconditional Response (salivation) is triggered also with Neutral Stimulus. Eg. Hungry Kya => Snickers, Thanda Matlab => Coca Cola.
-{{< youtube "QmdZbNMowkE" >}}
+
+- [Best Ad by Aamir Khan... For Coke.. As Punjabi Jatt](https://www.youtube.com/watch?v=QmdZbNMowkE):
 This is an example of classical conditioning.
-{{< youtube "QZWgamF8YwA" >}}
-{{< youtube "PGPbsdohmqQ" >}}
-{{< youtube "SvRx1C0oxOQ" >}}
+
+- [Aamir Khan Coke AD](https://www.youtube.com/watch?v=QZWgamF8YwA)
+- [Old Indian Ads -Indian TV Classic Funny ECE Bulb Commercial](https://www.youtube.com/watch?v=PGPbsdohmqQ)
+
+- [Titan Watches: Advertisement (Wedding)](https://www.youtube.com/watch?v=SvRx1C0oxOQ):
 In the advertisement, conditioning is done through Beethoven Symphony.
-{{< youtube "PQxFL6Ce-XM" >}}
+
+- [TITAN -The Joy of Gifting](https://www.youtube.com/watch?v=PQxFL6Ce-XM):
 In the advertisement, conditioning is done through Beethoven Symphony.
 
 All the brand elements can be used for classical conditioning like taglines, logo, jingles etc.
 ### Instrumental/Operational Conditioning
 This is also called Operand Learning Technique. B. F. Skinner did experiments with rats. There are two ways to condition, positive reinforcement and negative reinforcement.
-{{< youtube "JA96Fba-WHk" >}}
+
+- [Positive Reinforcement - The Big Bang Theory](https://www.youtube.com/watch?v=JA96Fba-WHk):
 This clip explains the learning by doing conditioning.
 
 Example is cashbacks, BOGO offers, test drives.
-{{< youtube "B5t-w600TwU" >}}
+
+- [KFC Classics: Buy One Get One Free](https://www.youtube.com/watch?v=B5t-w600TwU):
 This was an example of positive reinforcement.
-{{< youtube "PC4b4OIIk3Y" >}}
-{{< youtube "kr-p68vHio0" >}}
+
+- [Stayfree All Night Whistle Tvc](https://www.youtube.com/watch?v=PC4b4OIIk3Y):
+- [NIVEA SUN introduces Mr Sun – "There's only one sun"](https://www.youtube.com/watch?v=kr-p68vHio0):
 These were examples of negative reinforcement.
 
 ### Vicarious Conditioning
 Also called slice of life advertisement. Vicarious learning is often done through brand ambassadors. This is also called observational learning.
-{{< youtube "cFFx97rHvE0" >}}
-{{< youtube "ALxiXkHxqCc" >}}
-{{< youtube "CN_plnOolf8" >}}
-{{< youtube "j5ABkEX9wJ8" >}}
+
+- [This slice of life Amul ad is about the everyday drama of a typical Indian family.](https://www.youtube.com/watch?v=cFFx97rHvE0)
+- [Surf Excel Lalitaji](https://www.youtube.com/watch?v=ALxiXkHxqCc)
+- [surf lalitaji commercial](https://www.youtube.com/watch?v=CN_plnOolf8)
+- [Take the Dove half-face test and feel the Dove difference! (English)](https://www.youtube.com/watch?v=j5ABkEX9wJ8)
 
 ## Memory
 Memory is of two types:
@@ -239,22 +249,22 @@ Personality is "who you are?" or the self. There can be three personality types:
 Since people like to form connections with people with similar personality, therefore brands try to portrait certain personality to attract specific type of customers. If brand doesn't has a personality, it cannot have a high involvement purchase.
 
 ### Examples of aggressive personality
-{{< youtube "-D01M9Tlyqg" >}}
-{{< youtube "ns2KeatnIaQ" >}}
+- [Stella Artois - Quest](https://www.youtube.com/watch?v=-D01M9Tlyqg)
+- [NANDU BRAND ELITE WASHED LUNGIES](https://www.youtube.com/watch?v=ns2KeatnIaQ)
 ### Examples of compliant advertisements
-{{< youtube "MYcA7t8O7b0" >}}
-{{< youtube "sGjQnGio5mw" >}}
+- [Summer Corona Commercial 2017](https://www.youtube.com/watch?v=MYcA7t8O7b0)
+- [Share A Coke campaign 2019](https://www.youtube.com/watch?v=sGjQnGio5mw)
 This is an example of advertisement targeting compliant personality.
 ### Examples of detached advertisement
-{{< youtube "dAAy1cT89s4" >}}
-{{< youtube "hJIPF29ta3A" >}}
-{{< youtube "hyeU2lTpgrk" >}}
+- [Carlsberg Commercial 2015 HD If did fitting rooms](https://www.youtube.com/watch?v=dAAy1cT89s4)
+- [7UP Fido Dido Classic Indian TV Ad//Other 7UP (Fido Dido) Old Commercial](https://www.youtube.com/watch?v=hJIPF29ta3A)
+- [Sprite (Seedhi Baat, No Bakwaas)](https://www.youtube.com/watch?v=hyeU2lTpgrk)
 ### Example of confused advertisement
-{{< youtube "nofXbdTXmS8" >}}
+- [999 Lungi Ad](https://www.youtube.com/watch?v=nofXbdTXmS8)
 
 Apple has always been consistent with catering to detached personality (geeky guys). Nike also has stood consistent with message anybody can run, which appeals to detached personality.
 
-{{< youtube "0yO7xLAGugQ" >}}
+[Nike - Just Do It (1988) - Very first commercial](https://www.youtube.com/watch?v=0yO7xLAGugQ)
 
 {{% notice info %}}
 Brands can change personality over time.
@@ -284,14 +294,14 @@ What person wants others to think he/she is.
 {{< /define  >}}
 
 Malboro displayed cigarettes as used by macho cowboys, so the young males who wanted to display themselves as macho, started consuming it.
-{{< youtube "zi1O_Y7vWxU" >}}
+- [Marlboro Advertisement 1985](https://www.youtube.com/watch?v=zi1O_Y7vWxU):
 Sadly, south Indian actors also promote cigarettes.
-{{< youtube "_XXkz9_2hdM" >}}
+- [Rajini Cigarette style compilation part 1 | #Rajini Style](https://www.youtube.com/watch?v=_XXkz9_2hdM):
 
 Now a days, heros are displayed as having six-pack abs, hence the young generation is getting to gym.
 
 Raymonds also used "The Complete Man" tagline to make customers get interested in their products.
-{{< youtube "2hv42havE4w" >}}
+- [Raymond - The Complete Man](https://www.youtube.com/watch?v=2hv42havE4w):
 
 {{% notice info %}}
 A good book on personality is "Presentation of Self in everyday life", by Goffmann.
@@ -322,8 +332,8 @@ Book by Robert Kalgini has a different thought process on consumer behavior.
 
 #### Consumer Innovativeness
 When consumer uses the product in different ways.
-{{< youtube "jRcklcCaEJU" >}}
-{{< youtube "k83cJcWSmiw" >}}
+- [Never seen before: Making lassi in washing machine to combat heatwave!](https://www.youtube.com/watch?v=jRcklcCaEJU):
+- [Top 10 Awesome Toothpaste Life Hacks](https://www.youtube.com/watch?v=k83cJcWSmiw):
 
 #### Variety Novelty Seeking Behavior
 When consumers seek new products or features.
@@ -331,7 +341,7 @@ When consumers seek new products or features.
 #### Dogmatism
 When consumers have certain believes. Example boiling water. Dogmatism can be tackled only when there is an ambassador or person of authority. For example when people of FATA had believes that the polio drops would make children impotent, WHO appealed to Imams to convince disciples to get polio drops.
 
-{{< youtube "vkGCg7K4cdk" >}}
+- [Dressing Room - Rahul Dravid (Heroes Project PSA, HIV awareness and Prevention)](https://www.youtube.com/watch?v=vkGCg7K4cdk):
 
 #### Need for Cognition
 Cognos means knowledge. Consumers who wants to know a lot of things about are the consumers with high need for cognition.
@@ -375,7 +385,7 @@ Ability to comprehend things through pictures. If customers are high on visualiz
 
 #### Outer Directedness
 Desire to look good in the eyes of others.
-{{< youtube "oGWP1idJxD8" >}}
+- [ONIDA TV Devil old doordarshan Ad - 90'sAdvertisement/commercial](https://www.youtube.com/watch?v=oGWP1idJxD8):
 Onida advertisement states lots of features, they cater to people with high need for cognition and outer directedness both.
 
 #### Inner Directedness
@@ -385,7 +395,7 @@ Consuming something to please oneself.
 Each person has an internal frequency, i.e. how active lifestyle he/she likes. There is also environmental frequency, i.e. environment demands certain activity level. Eg. if a person from Shimla, where lifestyle has very low OSL (Optimum Simulation Level) is brought to Mumbai, where lifestyle has high OSL, then the person would feel irritated and will seek for environment with low OSL.
 
 This is generally used by tourism industry.
-{{< youtube "rBDC7_BnLH4" >}}
+- [Visit Maldives](https://www.youtube.com/watch?v=rBDC7_BnLH4):
 This advertisement caters to both personalities with high OLS and low OSL.
 
 ## Perception
@@ -479,96 +489,105 @@ Learned opinion or formed disposition.
 
 There should first be positive attitude towards consumption. After having positive opinion towards consumption, there should be a positive attitude towards product category. When there is positive attitude towards production category, then marketer should try to create positive attitude towards brand.
 
-# List of Behavioral and Psychographic variables
 ```mermaid
-mindmap
-    Behavioral and Psychographic Variable
-        Motivation
-            Need Gap: H, M, L
-            Need Benefit: N1, N2, N3...
-            Involvement towards problem: H, M, L
-            Valence: Approach, Avoidance
-            Approach Valence: H, M, L
-            Avoidance Valence: H, M, L
-            Involvement towards product: H, M, L
-            Involvement towards process: H, M, L
-        Learning
-            Type of learning: C, I, V
-            Classical Learner: H, M, L
-            Instrumental Learner: H, M, L
-            Vicarious Learner: H, M, L
-            Effectiveness of +ve reinforcement: H, M, L
-            Effectiveness of -ve reinforcement: H, M, L
-        Personality
-            Personality type: C, A, C
-            Exhibition of Aggressive personality: H, M, L
-            Exhibition of Compliant personality: H, M, L
-            Exhibition of Detached personality: H, M, L
-            Exhibition of Actual Self: H, M, L
-            Exhibition of Ideal Self: H, M, L
-            Exhibition of Social Self: H, M, L
-            Exhibition of Ideal Social Self: H, M, L
-            Consumer Innovativeness: H, M, L
-            Variety Novelty Seeking behavior: H, M, L
-            Dogmatism: H, M, L
-            Need for Cognition: H, M, L
-            Consumer Ethnocentrism: H, M, L
-            Verbalization: H, M, L
-            Visualization: H, M, L
-            Outer Directedness: H, M, L
-            Inner Directedness: H, M, L
-            Optimal Stimulation Level: H, M, L
-            Provenance Effect: H, M, L
-        Perception
-            Selective Attention: H, M, L
-            Selective Exposure: H, M, L
-            Perceptual Blocking: H, M, L
-            Perceptual Defense: H, M, L
-            Transaction Utility: H, M, L
+graph TD
+    CONSUMPTION(Attitude towards Consumption) --> CATEGORY(Attitude towards Category)
+    CATEGORY --> BRAND(Attitude towards Brand)
 ```
 
+{{< define "Market Creation Process">}}
+Creating awareness towards consumption.
+{{< /define >}}
+
+{{% notice info %}}
+Attitude can change with experience and context (situation).
+{{% /notice %}}
+
+### Why attitude is formed?
+- **Utilitarian Function**: Transactional function, where one likes something because it fulfils a utility
+- **Ego-Defensive Function**: Likes something because it protects one from a problem.
+- **Value-Expressive Function**: Also called **Self-Expressive Function**. Like something because one can relate to it and have a sense of self attached to it.
+
+Involvement is highest for the Value-Expressive Function and least for the Utilitarian Function. 
+
+### Tri-Component Model of Attitude
+{{< showimage "040.png" "Tri-Component Model of Attitude (Generated using DALL-E)" "800x webp" >}}
+Tri-Component Model of Attitude suggests there are three components of forming an attitude:
+- Cognition (Know)
+- Affect (Feel)
+- Conation/Behavior (Do)
+
+#### High Involvement Purchase
+```mermaid
+graph LR
+   Know --> Feel --> Do
+```
+#### Low Involvement Purchase
+```mermaid
+graph LR
+    Know --> Do --> Feel
+```
+#### Impulse Purchase
+```mermaid
+graph LR
+    Feel --> Do --> Know
+```
+
+# List of Behavioral and Psychographic variables
 ## Motivation
 1. Need Gap: H, M, L
 2. Need Benefit: N1, N2, N3...
-3. Involvement towards problem: H, M, L
-4. Valence: Approach, Avoidance 
-5. Approach Valence: H, M, L 
-6. Avoidance Valence: H, M, L 
-7. Involvement towards product: H, M, L
-8. Involvement towards process: H, M, L
+3. Individual Need Benefit Involvement: H, M, L
+4. Involvement towards problem: H, M, L
+5. Valence: Approach, Avoidance 
+6. Approach Valence: H, M, L 
+7. Avoidance Valence: H, M, L 
+8. Involvement towards product: H, M, L
+9. Involvement towards process: H, M, L
 ## Learning
-9. Type of learning: C, I, V 
-10. Classical Learner: H, M, L 
-11. Instrumental Learner: H, M, L 
-12. Vicarious Learner: H, M, L 
-13. Effectiveness of +ve reinforcement: H, M, L 
-14. Effectiveness of -ve reinforcement: H, M, L 
+10. Type of learning: C, I, V 
+11. Effectiveness of Classical Learning: H, M, L 
+12. Effectiveness Instrumental Learner: H, M, L 
+13. Vicarious Learner: H, M, L 
+14. Effectiveness of +ve reinforcement: H, M, L 
+15. Effectiveness of -ve reinforcement: H, M, L 
 ## Personality
-15. Personality type: C, A, C 
-16. Exhibition of Aggressive personality: H, M, L 
-17. Exhibition of Compliant personality: H, M, L 
-18. Exhibition of Detached personality: H, M, L 
-19. Exhibition of Actual Self: H, M, L 
-20. Exhibition of Ideal Self: H, M, L 
-21. Exhibition of Social Self: H, M, L 
-22. Exhibition of Ideal Social Self: H, M, L 
-23. Consumer Innovativeness: H, M, L 
-24. Variety Novelty Seeking behavior: H, M, L 
-25. Dogmatism: H, M, L 
-26. Need for Cognition: H, M, L 
-27. Consumer Ethnocentrism: H, M, L 
-28. Verbalization: H, M, L 
-29. Visualization: H, M, L 
-30. Outer Directedness: H, M, L 
-31. Inner Directedness: H, M, L 
-32. Optimal Stimulation Level: H, M, L 
-33. Provenance Effect: H, M, L
+16. Personality type: C, A, C 
+17. Exhibition of Aggressive personality: H, M, L 
+18. Exhibition of Compliant personality: H, M, L 
+19. Exhibition of Detached personality: H, M, L 
+20. Exhibition of Actual Self: H, M, L 
+21. Exhibition of Ideal Self: H, M, L 
+22. Exhibition of Social Self: H, M, L 
+23. Exhibition of Ideal Social Self: H, M, L 
+24. Consumer Innovativeness: H, M, L 
+25. Variety Novelty Seeking behavior: H, M, L 
+26. Dogmatism: H, M, L 
+27. Need for Cognition: H, M, L 
+28. Consumer Ethnocentrism: H, M, L 
+29. Verbalization: H, M, L 
+30. Visualization: H, M, L 
+31. Outer Directedness: H, M, L 
+32. Inner Directedness: H, M, L 
+33. Optimal Stimulation Level: H, M, L 
+34. Provenance Effect: H, M, L
 ## Perception
-34. Selective Attention: H, M, L 
-35. Selective Exposure: H, M, L 
-36. Perceptual Blocking: H, M, L 
-37. Perceptual Defense: H, M, L 
-38. Transaction Utility: H, M, L
+35. Selective Attention: H, M, L 
+36. Selective Exposure: H, M, L 
+37. Perceptual Blocking: H, M, L 
+38. Perceptual Defense: H, M, L 
+39. Transaction Utility: H, M, L
+## Attitude
+40. Attitude Towards Consumption: H, M, L
+41. Attitude Towards Product Category: H, M, L
+42. Attitude Towards Brand: H, M, L
+43. Attitude Towards Product: H, M, L
+44. Attitude Towards Process: H, M, L
+45. Attitude Towards Brand Ambassador: H, M, L
+46. Attitude Towards Brand Owner: H, M, L
+47. Utilitarian Attitude: H, M, L
+48. Ego Defensive Attitude: H, M, L
+49. Value Expressive Attitude: H, M, L
 
 <!-- ```mermaid
 mindmap
