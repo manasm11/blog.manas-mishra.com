@@ -20,7 +20,7 @@ OpenAI started as a non-profit on 11 Dec 2015. It was founded by:
 
 Companies like AWS, Infosys, Microsoft and YC Research also supported OpenAI when it was founded. Everyone collectively pledged over $1 billion to the venture but only $130 million was contributed until 2019. Elon Musk was the greatest contributor.
 
-In Feb 2018, Elon Musk departed from the company stating the conflict of interest with the AI research going on at TESLA. In 2019, due to a crunch in capital, OpenAI transformed from a non-profit to a capped-profit company. Now, investors can receive a maximum of 100 times their investment. Also, OpenAI received $1 billion in funding from Microsoft. In 2023, Microsoft funded OpenAI with $10 billion and now owns 49% of the company.
+In Feb 2018, Elon Musk departed from the company stating the conflict of interest with the AI research going on at TESLA. In 2019, due to a crunch in capital, OpenAI transformed from a non-profit to a capped-profit company. Now, investors can receive a maximum of 100 times their investment. Also, OpenAI received $1 billion in funding from Microsoft. In 2023, Microsoft funded OpenAI with $10 billion and now owns 49% of the company. OpenAI uses Azure servers to train their models.
 
 
 ## Projects
