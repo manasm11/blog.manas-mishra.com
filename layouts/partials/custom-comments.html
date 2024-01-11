@@ -1,6 +1,4 @@
 <!-- import your comments system
 {{ template "_internal/disqus.html" . }}
 -->
-<div class="commentbox"></div>
-<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
-<script>commentBox('5642377565831168-proj')</script>
+{{ partial "helpers/giscus.html" . }}
