@@ -23,7 +23,7 @@ Companies like AWS, Infosys, Microsoft and YC Research also supported OpenAI whe
 In Feb 2018, Elon Musk departed from the company stating the conflict of interest with the AI research going on at TESLA. In 2019, due to a crunch in capital, OpenAI transformed from a non-profit to a capped-profit company. Now, investors can receive a maximum of 100 times their investment. Also, OpenAI received $1 billion in funding from Microsoft. In 2023, Microsoft funded OpenAI with $10 billion and now owns 49% of the company.
 
 
-## Contributions
+## Projects
 OpenAI has developed several notable models and technologies in the field of artificial intelligence. Here's a list of some of the key models:
 1. **Generative Pre-trained Transformer (GPT) Series**: 
    - **GPT-1**: The original generative pre-trained transformer model.
