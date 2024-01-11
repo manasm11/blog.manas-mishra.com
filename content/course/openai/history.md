@@ -12,10 +12,11 @@ OpenAI started as a non-profit on 11 Dec 2015. It was founded by:
 5. **[Andrej Karpathy](https://www.linkedin.com/in/andrej-karpathy-9a650716/)**: Research intern with Google. Ph.D. in Computer Science from Stanford. Was a founding member and research scientist at OpenAI. Served as Senior Director of AI at Tesla.
 6. **[Durk Kingma](https://www.linkedin.com/in/durk-kingma-58b3564/)**: Research Scientist and Team Lead at OpenAI. Working as a research scientist at DeepMind.
 7. **[Wojciech Zaremba](https://www.linkedin.com/in/wojciech-zaremba-356568164/)**: Has been a Research Scientist at Google and Facebook. Currently co-founder of OpenAI.
-8. **[Sam Altman](https://en.wikipedia.org/wiki/Sam_Altman)**: Served as president of Y-Combinator. CEO of OpenAI.
-9. **[John Schulman](http://joschu.net/)**: A research scientist and co-founder of OpenAI.
+8. **[John Schulman](http://joschu.net/)**: A research scientist and co-founder of OpenAI.
+9. **[Sam Altman](https://en.wikipedia.org/wiki/Sam_Altman)**: Served as president of Y-Combinator. CEO of OpenAI.
 10. **[Elon Musk](https://en.wikipedia.org/wiki/Elon_Musk)**: CEO of SpaceX and Tesla. Co-Founder of Neuralink, OpenAI, Zip2 and X.com.
 11. **[Peter Thiel](https://www.linkedin.com/in/peterthiel/)**: Served as CEO, Chairman and Co-Founder of PayPal. Member of the Board of Directors at Facebook. A popular venture capitalist. Invested in OpenAI.
+12. **[Jessica Livingston](https://www.linkedin.com/in/jessicalivingston1/)**: Partner at Y-Combinator. One of the initial investors in OpenAI.
 
 Companies like AWS, Infosys, Microsoft and YC Research also supported OpenAI when it was founded. Everyone collectively pledged over $1 billion to the venture but only $130 million was contributed until 2019. Elon Musk was the greatest contributor.
 
