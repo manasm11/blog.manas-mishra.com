@@ -25,11 +25,10 @@ weight=10
 | presence_penalty | float | 0.0 (-2.0 to 2.0) | Reduce probability of re-occurrence of token once it occurred| 
 | frequency_penalty | float | 0.0 (-2.0 to 2.0) | Reduce the probability of re-occurrence of token as it appears in the output. (May lead to non-sensible outputs.)|
 | seed | int | 0 | Attempts to give deterministic output |
-| suffix | string |  | Suffix after completion. |
 | stop | string/array | | Upto 4 sequences of tokens to stop generation. (Sequence will not be included in output) |
 | user | string | | A unique identifier representing your end-user, which can help OpenAI to monitor and detect abuse.|1
-| logit_bias | object | null | Not Sure |
-| logprobs | integer | 0 | Not Sure |
+| logit_bias | object | null | Modify the likelihood of specified tokens appearing in the completion. |
+| logprobs | integer | 0 | Include the log probabilities on the logprobs most likely output tokens 
 ## Output Parameters
 | Parameter   | Type   | Description                                      |
 | ---------   | ----   | ---------------                                  |
