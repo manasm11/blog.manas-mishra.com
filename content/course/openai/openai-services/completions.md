@@ -20,7 +20,7 @@ weight=10
 | best_of | integer | 1 | Generates multiple completions internally and returns *n* best outputs. (Increases number of output tokens generated.) |
 | stream     | boolean| false       | Send partial responses as being generated. |
 | temperature| float  | 1.0 (0.0 to 2.0)   | Increases randomness by making probability distribution flattened.|
-| top_p | float | 1.0 (0.0 to 2.0) | Increases randomness by increasing threshold of probability for accepted tokens. |
+| top_p | float | 1.0 (0.0 to 1.0) | Increases randomness by increasing threshold of probability for accepted tokens. |
 | echo       | boolean| false       | Includes input prompt along with output. (Doesn't affect pricing).
 | presence_penalty | float | 0.0 (-2.0 to 2.0) | Reduce probability of re-occurrence of token once it occurred| 
 | frequency_penalty | float | 0.0 (-2.0 to 2.0) | Reduce the probability of re-occurrence of token as it appears in the output. (May lead to non-sensible outputs.)|
