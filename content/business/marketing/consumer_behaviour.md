@@ -7,9 +7,14 @@ draft = true
 weight = 2
 +++
 
-In the Segmentation and Targeting process, we need to understand the customers behaviors. We will do it by collecting data about the psychographic Behavioral and Psychographic variables.
+In the Segmentation and Targeting process, we need to understand the customer's behaviors. We will do it by collecting data about the psychographic Behavioral and Psychographic variables.
 
 Preference = Behavioral + Psychographic Variables
+
+{{% notice info %}}
+Everyone wants to stay in a state of homeostasis (Ideal State), but oftentimes, we are not in the ideal state. The difference is called the Need Gap. Need Gap leads to motivation to seek solutions.
+{{% /notice %}}
+
 
 ## Consumer Decision Making
 
@@ -221,7 +226,10 @@ mindmap
             Sabhya Sachi
             SRK
 ```
+{{% notice note %}}
 Whenever a need arises, consumers think of attributes, not solutions. Then consumers look for solutions attached to the attributes.
+{{% /notice %}}
+
 
 ```mermaid
 mindmap
@@ -532,6 +540,35 @@ graph LR
 graph LR
     Feel --> Do --> Know
 ```
+
+## Attitude Formation Model
+Also called Multi-Attribute Model and Fishbein Model. It describes how opinion is formed and what the can company do to improve attitude towards product/brand.
+
+Attitudinal Score = ∑(Belief x Importance)
+
+##### Belief Table
+| *Attitudes (Importance)* | IIM-Ahmadabad | Howard Business School | Masters Union |
+| ------------------------ | ------------- | ---------------------- | ------------- |
+| **Knowledge** (10)       | 8             | 9                      | 5             |
+| **Network**   (20)       | 6             | 7                      | 8             |
+| **Placement**   (50)     | 9             | 8                      | 7             |
+| **Brand Value**   (20)   | 9             | 9                      | 8             |
+
+###### Attitudinal Scores
+IIMA = (8 x 10) + (6 x 20) + (9 x 50) + (9 x 20) = **830**\
+HBS  = (9 x 10) + (7 x 20) + (8 x 50) + (9 x 20) = **810**\
+IIMA = (5 x 10) + (8 x 20) + (7 x 50) + (8 x 20) = **720**
+
+##### Ways to improve attitude
+1. Add a new attribute.
+2. Increase the importance of an attribute where you are strong.
+3. Reduce the importance of an attribute where you are weak.
+4. Change the belief that you are weak.
+
+{{% notice warning %}}
+Never imagine a target customer without market research.
+{{% /notice %}}
+
 
 # List of Behavioral and Psychographic variables
 ## Motivation
