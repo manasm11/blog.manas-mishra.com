@@ -565,9 +565,36 @@ IIMA = (5 x 10) + (8 x 20) + (7 x 50) + (8 x 20) = **720**
 3. Reduce the importance of an attribute where you are weak.
 4. Change the belief that you are weak.
 
+{{% notice info %}}
+We'll learn details about these when studying Conjoint Analysis.
+{{% /notice %}}
+
+{{% notice info %}}
+Culture = Opinion Leadership + Reference Group
+{{% /notice %}}
+
+
+{{< define "Attitude-Culture Conflict">}}
+Also called Personality-Culture conflict. When consumer wants to purchase the product but culture is against it.
+{{< /define >}}
+
+### Attribution Theory
+{{< figure src="/img/attribution_theory.svg" caption="Attribution Theory" alt="Attribution Theory">}}
+
 {{% notice warning %}}
 Never imagine a target customer without market research.
 {{% /notice %}}
+
+## Consumer Decision-Making Process
+Consumers make decisions based on one or more of the following rules:
+1. **Compensatory Rule**: When decision is made on the basis of all the features present. The lower value of one feature can be compensated by the higher value.
+{{< showimage "041.png" "Compensatory Decision Making Rule" "800x webp" >}}
+
+2. **Conjunctive Rule**: Lower cut-off for any feature is set for disregarding options from choice set.
+{{< showimage "042.png" "Conjunctive Decision Making Rule" "800x webp" >}}
+
+3. **Disjunctive Rule**: Higher cut-off for a feature is set for creating choice set.
+{{< showimage "043.png" "Disjunctive Decision Making Rule" "800x webp" >}}
 
 
 # List of Behavioral and Psychographic variables
