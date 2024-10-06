@@ -99,6 +99,9 @@ Then each operation gets corresponding position.
 
 ## People
 ## Task List
+Positions -> Processes -> Tasks -> Skill Map
+
+{{< showimage "049.png" "captionAlt" "800x webp text" >}}
 ## Skill Map
 ## Training Curriculum
 ## Training System
