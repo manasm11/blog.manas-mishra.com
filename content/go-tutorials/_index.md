@@ -1,6 +1,7 @@
 +++
 title = "GoLang Tutorials"
 linkTitle = "Go Tutorials"
+draft = true
 hidden = true
 +++
 

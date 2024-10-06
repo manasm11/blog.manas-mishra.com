@@ -3,7 +3,7 @@ title = "Marketing Basics"
 linkTitle = "Marketing"
 math = true
 date = "2023-11-21T05:58:51+05:30"
-draft = true
+draft = false
 weight = 1
 +++
 

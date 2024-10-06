@@ -3,7 +3,7 @@ title = "Consumer Behavior"
 linkTitle = "Consumer"
 math = true
 date = "2023-11-21T05:58:51+05:30"
-draft = true
+draft = false
 weight = 2
 +++
 

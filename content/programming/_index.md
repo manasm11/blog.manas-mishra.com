@@ -1,5 +1,6 @@
 +++
 title = "Programming"
+draft = true
 +++
 
 I tried multiple programming languages like C, C++, Java, Javascript, Python. I am interested in linux and open source stuff, also starting to develop a liking for GoLang.
