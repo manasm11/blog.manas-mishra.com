@@ -48,5 +48,55 @@ Have clear definition of success, which is to grow each day.
 
 ### How Do I Pick the Right Career?
 
+### How Do I Change My Career?
 
+### How Do I Grow in My Career?
+
+### How Do I Deal with Office Politics?
+
+### How can I Be Indispensable at Work?
+
+### How Should I Spend the First 90 Days of a New Job?
+
+### How Can I Build Multiple Income Streams?
+
+### How Should I Take a Gap Year?
+
+## Managing People
+
+### How Do I Say No?
+
+### How Can I Seek Help?
+
+### How Do I Convince My Parents About My Career Choice?
+
+### How Can I Forgive My Parents?
+
+### How Do I Make Friends?
+
+### How Can I Find a Life Partner?
+
+### How Do I Deal with a Break-up?
+
+### How Do I Set Boundaries?
+
+### How Do I Deal with Toxic Friends?
+
+## Managing Yourself
+
+### How Do I Develop Patience?
+
+### How Can I Have a Sleep Routine?
+
+### How Do I Build Good Habits?
+
+### How Can I Be More Self-aware?
+
+### How Can I Live by Myself?
+
+### How Do I Manage My Anger?
+
+### How Can I Pick Myself Up?
+
+### How Can I Become My Best Friend?
 
