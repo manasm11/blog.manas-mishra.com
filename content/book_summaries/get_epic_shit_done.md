@@ -4,7 +4,7 @@ title = "Get Epic Shit Done by Ankur Warikoo"
 linkTitle = "Get Epic Shit Done"
 math = true
 date = "2024-10-09T21:30:00+05:30"
-draft = true
+draft = false
 +++
 
 The book contains 36 questions asked by a student and answered by Ankur Warikoo. The books is mainly aimed at young adults in there 20s. I have summarized the answers in this blog.
@@ -15,7 +15,7 @@ The book contains 36 questions asked by a student and answered by Ankur Warikoo.
 ### How Can I Stop Comparing Myself to Others?
 Comparison emerges from two incorrect assumptions:
 1. **World is a zero-sum game**: Zero-sum game is one where for one to win, others must loose. In real world, best deals are win-win.
-2. **Ignore uniqueness of everyone**: Everyone has unique history which leads them to different futures.
+2. **Everyone should win same battles**: Everyone has unique history which leads them to different futures. Everyone is unique in itself.
 
 Have clear definition of success, which is to grow each day.
 
@@ -35,7 +35,15 @@ Growth Mindset is to believe that person's capabilities are not limited. Three w
 ### How Do I Make Tough Decisions in Life?
 - Remember most decisions are reversible.
 - When comparing options, assign weights to parameters and give points to each option and calculate net score.
-TABLE
+| Item    | Weight | College A | College B |
+| -------- | ------- | --------- | --------- |
+| College Reputation  | 40%    | 2     | 3     |
+| Course I Study | 20%     | 3     | 1     |
+| Placement Options    | 10%    | 1     | 2     |
+| Peer Group |  15%     | 2     | 2 |
+| Methodology of Learning    | 15%    | 2     | 3     |
+| **TOTAL**    |  **100%**   |  **2.1**    |  **2.35**    |
+
 - Imagine the worst case scenario. If you are okay with it, go ahead. If not, either wait before taking the decision or plan to face the worst case scenario.
 
 
@@ -144,28 +152,31 @@ Don't force a deadline, neither by yours or by society, else you may end up with
 Don't fight the emotion of emptiness, let it be there. It will fade away in few weeks. Use the opportunity to introspect & build better relationship with yourself. Use journal to keep note of all emotions.
 
 ### How Do I Set Boundaries?
-*We know ourselves through our thoughts, others know us through our actions. If our actions do not speak up for what we want, all we are saying is that we do not want anything.*
 
 Non-negotiable preferences are called boundaries. When we set and respect our boundaries, we also encourage others to create & respect theirs. Be self aware of your boundaries and have conversation about them with concerned people.
+> We know ourselves through our thoughts, others know us through our actions. If our actions do not speak up for what we want, all we are saying is that we do not want anything.
+
+> When we are not aware of what we want, we become narcissists in our most important relationships.
+
 
 ### How Do I Deal with Toxic Friends?
-*Difficult situations do not test us, they reveal us.*
 
 Two people who are toxic for each other could be wonderful as individuals. Reflect on the cause, have conversation with the person. Then either both will work on making it better or gather courage to end it.
 
 ## Managing Yourself
 
-*What isn't your fault is still your responsibility. Just because you didn't create a problem, doesn't mean you don't solve the problem.*
 
 ### How Do I Develop Patience?
-*Be impatient with your actions, patient with results.*
+> Be impatient with your actions, patient with results.
 
 - We are being trained to be impatient.
 - Great things take time.
 - Delay desire fullfilment. Like if you want something badly, wait for 30 days. If you want to eat something, wait for 60 mins.
+> Difficult situations do not test us, they reveal us.
+
 
 ### How Can I Have a Sleep Routine?
-*No one loves adhering to routines, but everyone loves the results routine brings.*
+> No one loves adhering to routines, but everyone loves the results routine brings.
 - Sleep at fixed time every night.
 - Stay away from stimulating things, ie. screen, 60 mins from sleep.
 - Wake up slowly. 
@@ -173,9 +184,12 @@ Two people who are toxic for each other could be wonderful as individuals. Refle
 
 ### How Do I Build Good Habits?
 Brain likes to conserve energy and do things it is used to doing, making huge changes requires lot of energy. Make small changes in habits. Measure your progress. *Habits are much better than goals.* To stay motivated, eliminate distractions & make it easdy to form right habits.
+> What isn't your fault is still your responsibility. Just because you didn't create a problem, doesn't mean you don't solve the problem.
+
 
 ### How Can I Be More Self-aware?
-*Unless you know why you do something, you won't be able to change it.* After every failure, ask the following four questions:
+> Unless you know why you do something, you won't be able to change it.
+After every failure, ask the following four questions:
 1. What I thought was true, but now I know is not?
 2. What I thought was false, but now I know is not?
 3. What is this trying to teach me?
@@ -187,8 +201,8 @@ You'll have to learn to manage money, health, relationship.
    a. Need to (Basics)
    b. Want to (Desires)
    c. Have to (Insurances, Investments)
-2. Bad health habits show no effect in 20s, will show effect in 30s. Have homemade meals.
-3. After any relationship failure, reflect what unfulfilling need of yours did that relationship fulfill?
+2. **Health**: Bad health habits show no effect in 20s, will show effect in 30s. Have homemade meals.
+3. **Relationship**: After any relationship failure, reflect what unfulfilling need of yours did that relationship fulfill?
 
 ### How Do I Manage My Anger?
 Anger's purpose is to make us aware of an unresolved need. The moment we become aware of that need, anger has served its purpose. Three steps to control anger:

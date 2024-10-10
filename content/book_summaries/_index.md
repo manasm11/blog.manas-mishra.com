@@ -1,6 +1,6 @@
 +++
 title = "Book Summaries"
-draft = true
+draft = false
 +++
 
 Here are some books that I created summary of.
