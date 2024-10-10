@@ -95,48 +95,110 @@ Start with having clear idea of what one thing you want from career. Secondly un
 If the leader is biased and prevents your growth, the only option is to change the company. If management supports fair dealing, but few people in your department hinder your growth, you must raise your voice and inform the management.
 
 ### How can I Be Indispensable at Work?
+Being better than others is a contant chansing game & is usually momentary. When assigned a task, don't just complete the output, try to understand why that task is being done and try to fulfil the outcome.
 
 ### How Should I Spend the First 90 Days of a New Job?
+Don't aim at creating an impact from day 1, instead do the following three things:
+1. Understand the culture by observing how system works.
+2. Listening intently to whatever is being said.
+3. Reach out to people within your department & outside of it.
 
 ### How Can I Build Multiple Income Streams?
+Have a predictable income stream. Then spend time creating other business processes, outsource admin tasks & set up automations.
 
 ### How Should I Take a Gap Year?
+New opportunities are arising rapidly, so taking time to refltect isn't a luxury, but a necessity. In Gap Year, do the following three things:
+1. **Become a student**: List out things you wish to explore by asking if you can be good at things and enjoy doing it. Try picking courses, projects and work for free.
+2. **Building Community**: Find communities of like-minded people as it can provide you the opportunities.
+3. **Reflect**: Keep asking yourself, is it something I am or can be good at? Is it something I enjoy doing? Have a long term vision while doing reflection.
 
 ## Managing People
 
 ### How Do I Say No?
+Give the reason and ask politely if it is okay to say no.
 
 ### How Can I Seek Help?
+First understand the difference between *Knowledge*, *Advice*, *Help*. Knowledge is facts, Advice is opinion when there is a choice, Help is seeking direction from someone. Before seeking help from someone, first seek knowledge and try things yourself. This is important to respect others time. If later the help results to be effective, give the positive feedback to the helper.
 
 ### How Do I Convince My Parents About My Career Choice?
+Parents seek stability and are aware of just a handful of paths to reach there. Make them aware of the possibilities by having conversations. Seek permission to fail or ask for some time.
 
 ### How Can I Forgive My Parents?
+- True love forgives even when no apology is sought.
+- The moment you seek forgiveness, you create asafe space for the other person to also ask for it.
+- Have normal conversations with them and try to understand why they did what they did.
 
 ### How Do I Make Friends?
+- Don't be desparate, be yourself.
+- Be genuinely interested in people.
+- Be your best friend & know yourself.
+- All friendship boils down to being honest.
 
 ### How Can I Find a Life Partner?
+Don't force a deadline, neither by yours or by society, else you may end up with wrong partner. Spend time to see all aspects of each other & how both react to them. The following three things are necessary:
+1. Convergence around money, career, and ambition.
+2. Convergence of principles of life. Ask why questions from each other.
+3. Both want best of each other.
 
 ### How Do I Deal with a Break-up?
+Don't fight the emotion of emptiness, let it be there. It will fade away in few weeks. Use the opportunity to introspect & build better relationship with yourself. Use journal to keep note of all emotions.
 
 ### How Do I Set Boundaries?
+*We know ourselves through our thoughts, others know us through our actions. If our actions do not speak up for what we want, all we are saying is that we do not want anything.*
+
+Non-negotiable preferences are called boundaries. When we set and respect our boundaries, we also encourage others to create & respect theirs. Be self aware of your boundaries and have conversation about them with concerned people.
 
 ### How Do I Deal with Toxic Friends?
+*Difficult situations do not test us, they reveal us.*
+
+Two people who are toxic for each other could be wonderful as individuals. Reflect on the cause, have conversation with the person. Then either both will work on making it better or gather courage to end it.
 
 ## Managing Yourself
 
+*What isn't your fault is still your responsibility. Just because you didn't create a problem, doesn't mean you don't solve the problem.*
+
 ### How Do I Develop Patience?
+*Be impatient with your actions, patient with results.*
+
+- We are being trained to be impatient.
+- Great things take time.
+- Delay desire fullfilment. Like if you want something badly, wait for 30 days. If you want to eat something, wait for 60 mins.
 
 ### How Can I Have a Sleep Routine?
+*No one loves adhering to routines, but everyone loves the results routine brings.*
+- Sleep at fixed time every night.
+- Stay away from stimulating things, ie. screen, 60 mins from sleep.
+- Wake up slowly. 
+- If you need to wake early, set alarm 10 mins before your regular waking time for 3 weeks & repeat the cycle every 3 weeks. The body will easily adabt to small changes.
 
 ### How Do I Build Good Habits?
+Brain likes to conserve energy and do things it is used to doing, making huge changes requires lot of energy. Make small changes in habits. Measure your progress. *Habits are much better than goals.* To stay motivated, eliminate distractions & make it easdy to form right habits.
 
 ### How Can I Be More Self-aware?
+*Unless you know why you do something, you won't be able to change it.* After every failure, ask the following four questions:
+1. What I thought was true, but now I know is not?
+2. What I thought was false, but now I know is not?
+3. What is this trying to teach me?
+4. What will I change from tomorrow, basis on the response above?
 
 ### How Can I Live by Myself?
+You'll have to learn to manage money, health, relationship.
+1. **Money**: You'll need to create monthly budgets. Categorize spendings in three categories:
+   a. Need to (Basics)
+   b. Want to (Desires)
+   c. Have to (Insurances, Investments)
+2. Bad health habits show no effect in 20s, will show effect in 30s. Have homemade meals.
+3. After any relationship failure, reflect what unfulfilling need of yours did that relationship fulfill?
 
 ### How Do I Manage My Anger?
+Anger's purpose is to make us aware of an unresolved need. The moment we become aware of that need, anger has served its purpose. Three steps to control anger:
+1. Recognise that you are about to get angry.
+2. Count to ten & take deep breaths.
+3. Understand the unfulfilled need from which anger emerges.
 
 ### How Can I Pick Myself Up?
+Just see life as a journey with ups and downs. The sense of progress motivates us.
 
 ### How Can I Become My Best Friend?
+Treat yourself as your best friend. Even smile at yourself when looking at mirror. Be comfortable at your weakness. The world's opinion about us is the reflection of our own opinion about ourselves. Spend time with yourself. Be responsible for yopur happiness, and don't seek happiness rather share it with others.
 
