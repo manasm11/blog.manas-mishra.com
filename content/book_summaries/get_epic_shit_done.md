@@ -67,16 +67,32 @@ TABLE
 ## Managing Your Career?
 
 ### How Do I Build Trust?
+- Trust doesn't mean nothing will ever go wrong, instead, it means everything to prevent it was done and everything will be done to fix it.
+- Hardwork & intelligence can never replace trust.
+
+There are three ingredients for trust:
+1. Be there for people when times are difficult.
+2. Be accountable for what you do, i.e. be answerable to your work.
+3. Stick to your commitments. If unable to deliver, request for more time much in advance.
 
 ### How Do I Find My Passion?
+Spend your 20s exploring your passion, 30s honing it and rest of the life reaping the benefits. Ikigai gives four criteria to know purpose of life:
+1. Do what you love
+2. Do what you are good at
+3. Do what world needs
+4. Do what makes you money
 
 ### How Do I Pick the Right Career?
+If you are having a job, don't leave it. Just do enough that is needed. Spend remaingin time exploring & preparing for the dream job.
 
 ### How Do I Change My Career?
+Continue tha current joband in free time explore other career options. Take up courses and talk to people in the field. When you are experienced, apply for jobs and send cold emails. If it is a business, slowly unlock an income stream from it.
 
 ### How Do I Grow in My Career?
+Start with having clear idea of what one thing you want from career. Secondly understand what will make it happen. You can ask your friends in different companies or through cold emails about cultures of different companies from their employees. Reach out 5 people everyday. If you don't ask, the answer is always no!
 
 ### How Do I Deal with Office Politics?
+If the leader is biased and prevents your growth, the only option is to change the company. If management supports fair dealing, but few people in your department hinder your growth, you must raise your voice and inform the management.
 
 ### How can I Be Indispensable at Work?
 
