@@ -1,6 +1,6 @@
 +++
-title = "Data Structures and Algorithms"
-linkTitle = "DSA"
+title = "Basics"
+linkTitle = "Basics"
 math = true
 date = "2025-06-15T05:58:51+05:30"
 draft = false
@@ -181,3 +181,14 @@ Eg: No. of iterations = $N^2 + 10N$
 Therefore, as value of N increases, contribution of lower order terms reduces. For large N, the contribution is almost 0. That's why the lower order terms and coefficients are ignored when calculating Big O Notations.
 
 ### Bitwise Operations
+| a   | b | a & b | a \| b | a ^ b |
+| -------- | ------- | ------- | ------- | ------- |
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 1 | 0 |
+
+| a | ! a|
+| ------- | ------- |
+| 0 | 1 |
+| 1 | 0 |
