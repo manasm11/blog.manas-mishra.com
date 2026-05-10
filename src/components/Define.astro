@@ -1,0 +1,10 @@
+---
+interface Props {
+	term: string;
+}
+const { term } = Astro.props;
+---
+<div class="define-block">
+	<u><strong>{term}</strong></u>
+	<div><slot /></div>
+</div>
