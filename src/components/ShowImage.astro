@@ -1,0 +1,19 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+	name: string;
+	caption?: string;
+}
+const { name, caption } = Astro.props;
+
+const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/img/image-*');
+const key = `/src/assets/img/image-${name}`;
+const imageModule = await images[key]?.();
+---
+{imageModule && (
+	<figure>
+		<Image src={imageModule.default} alt={caption ?? ''} loading="lazy" />
+		{caption && <figcaption>{caption}</figcaption>}
+	</figure>
+)}

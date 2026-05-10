@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+	currentSlug: string;
+}
+const { currentSlug } = Astro.props;
+
+const all = await getCollection('docs');
+const children = all
+	.filter((e) => {
+		const rest = e.id.replace(/\/index\.mdx?$/, '');
+		const parent = rest.includes('/') ? rest.slice(0, rest.lastIndexOf('/')) : '';
+		return parent === currentSlug && !e.data.draft;
+	})
+	.sort((a, b) => ((a.data.sidebar as any)?.order ?? 99) - ((b.data.sidebar as any)?.order ?? 99));
+---
+<ul>
+	{children.map((p) => {
+		const slug = p.id.replace(/\/index\.mdx?$/, '').replace(/\.mdx?$/, '');
+		const label = (p.data.sidebar as any)?.label ?? p.data.title;
+		return <li><a href={`/${slug}/`}>{label}</a></li>;
+	})}
+</ul>

@@ -1,0 +1,44 @@
+/* Custom styles for blog.manas-mishra.com */
+
+.mermaid {
+	margin: 1rem 0;
+	text-align: center;
+}
+
+.define-block {
+	border-left: 3px solid var(--sl-color-accent);
+	padding: 0.5rem 1rem;
+	margin: 0.75rem 0;
+	background: var(--sl-color-bg-sidebar);
+	border-radius: 0 4px 4px 0;
+}
+
+.define-block > div {
+	margin-top: 0.25rem;
+}
+
+.download-link {
+	display: inline-block;
+	padding: 0.4rem 0.8rem;
+	background: var(--sl-color-accent);
+	color: var(--sl-color-white);
+	border-radius: 4px;
+	text-decoration: none;
+	margin: 0.25rem 0;
+}
+
+.download-link:hover {
+	opacity: 0.85;
+}
+
+details {
+	border: 1px solid var(--sl-color-gray-5);
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+	margin: 0.75rem 0;
+}
+
+details summary {
+	cursor: pointer;
+	font-weight: 600;
+}
