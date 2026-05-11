@@ -25,10 +25,16 @@
 	border-radius: 4px;
 	text-decoration: none;
 	margin: 0.25rem 0;
+	font-weight: 600;
 }
 
 .download-link:hover {
 	opacity: 0.85;
+}
+
+:root[data-theme='light'] .download-link {
+	background: var(--sl-color-accent-high);
+	color: var(--sl-color-black);
 }
 
 details {
